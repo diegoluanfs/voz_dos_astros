@@ -1,0 +1,42 @@
+name: vozdosastrosproject
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/bg_default.png
+    - assets/bg_aries.png
+    - assets/bg_touro.png
+    - assets/bg_gemeos.png
+    - assets/bg_cancer.png
+    - assets/bg_leao.png
+    - assets/bg_virgem.png
+    - assets/bg_libra.png
+    - assets/bg_escorpiao.png
+    - assets/bg_sagitario.png
+    - assets/bg_capricornio.png
+    - assets/bg_aquario.png
+    - assets/bg_peixes.png
+    - assets/horoscopos_maio_2025.json
+    - assets/horoscopos_junho_2025.json
+    - assets/horoscopos_julho_2025.json
+    - assets/horoscopos_agosto_2025.json

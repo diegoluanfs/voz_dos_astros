@@ -1,0 +1,1502 @@
+{
+  "2025-06-01": {
+    "Áries": {
+      "text": "Hoje, a pressa pode vestir disfarces de urgência, mas o que você realmente precisa talvez seja apenas respirar mais devagar. Há uma força sutil pedindo menos ação e mais percepção. Evite o impulso de resolver tudo com força: há poder também na escuta e na presença.",
+      "inspiration": "Nem toda chama precisa incendiar — algumas iluminam apenas o caminho."
+    },
+    "Touro": {
+      "text": "Há uma ternura silenciosa nos processos lentos. Você está amadurecendo algo por dentro, talvez sem perceber. Confie no tempo, mesmo quando tudo ao redor parecer apressado. Os frutos do cuidado interior são os mais doces.",
+      "inspiration": "O universo planta em silêncio o que florescerá no seu tempo."
+    },
+    "Gêmeos": {
+      "text": "A mente dança entre ideias, mas o coração pede uma pausa mais contemplativa. Entre tantas palavras, o silêncio pode ser a resposta. É dia de ouvir mais do que falar — inclusive a si mesmo.",
+      "inspiration": "O vento leva o que é leve, mas guarda no peito o que é verdade."
+    },
+    "Câncer": {
+      "text": "Velhas emoções podem emergir, não para ferir, mas para curar. Olhe com carinho para o que retorna: há uma sabedoria nas memórias que insistem em ficar. Hoje, cuidar de si é um gesto sagrado.",
+      "inspiration": "Quem mergulha em si descobre que até a dor tem marés."
+    },
+    "Leão": {
+      "text": "O brilho que você carrega não precisa ser provado — apenas vivido. Hoje, evite buscar validação fora. O universo lhe convida a reconhecer sua luz com humildade. Há dignidade na autenticidade.",
+      "inspiration": "O sol não precisa de aplausos para nascer — apenas do céu aberto."
+    },
+    "Virgem": {
+      "text": "Seu olhar detalhista é dom, mas hoje talvez seja preciso relaxar o controle. Nem tudo precisa fazer sentido de imediato. Permita-se viver a dúvida como quem rega uma semente ainda invisível.",
+      "inspiration": "A perfeição da vida está justamente nas imperfeições que nos ensinam."
+    },
+    "Libra": {
+      "text": "As relações refletem espelhos que nem sempre gostamos de olhar. Hoje, o céu convida à honestidade suave. Buscar harmonia não é evitar conflitos, mas acolher as verdades com beleza.",
+      "inspiration": "Equilíbrio não é ausência de movimento, mas dança entre extremos."
+    },
+    "Escorpião": {
+      "text": "Há um chamado para desapegar do que pesa. Você não precisa carregar tudo — nem todas as culpas. O renascimento começa quando a alma escolhe soltar.",
+      "inspiration": "Morrer por dentro é às vezes o primeiro passo para renascer com leveza."
+    },
+    "Sagitário": {
+      "text": "O espírito busca horizontes, mas talvez o aprendizado hoje esteja em olhar para dentro. A viagem mais longa pode ser a mais próxima. Fé é o fogo que aquece mesmo quando o mundo esfria.",
+      "inspiration": "As estrelas mais distantes também moram dentro de você."
+    },
+    "Capricórnio": {
+      "text": "A responsabilidade é nobre, mas não se esqueça de que você é mais que suas conquistas. Hoje, permita-se descanso sem culpa. O mundo não desmorona quando você cuida de si.",
+      "inspiration": "A montanha também sonha com o vento leve da madrugada."
+    },
+    "Aquário": {
+      "text": "Ideias novas sopram como brisas de renovação. Mas será que você está ouvindo o chamado? Desafiar padrões é parte da sua essência, mas hoje, talvez o desafio seja acolher também o que é simples.",
+      "inspiration": "A liberdade mais rara é a de ser inteiro — mesmo quando incomum."
+    },
+    "Peixes": {
+      "text": "A sensibilidade pode parecer um fardo, mas é nela que mora sua magia. Intuições surgem com clareza sutil hoje — confie nelas. O invisível também é real quando sentimos com verdade.",
+      "inspiration": "Quem escuta o coração aprende a decifrar os segredos das marés."
+    }
+  },
+  "2025-06-02": {
+    "Áries": {
+      "text": "Hoje, a pressa pode vestir disfarces de urgência, mas o que você realmente precisa talvez seja apenas respirar mais devagar. Há uma força sutil pedindo menos ação e mais percepção. Evite o impulso de resolver tudo com força: há poder também na escuta e na presença.",
+      "inspiration": "Nem toda chama precisa incendiar — algumas iluminam apenas o caminho."
+    },
+    "Touro": {
+      "text": "Há uma ternura silenciosa nos processos lentos. Você está amadurecendo algo por dentro, talvez sem perceber. Confie no tempo, mesmo quando tudo ao redor parecer apressado. Os frutos do cuidado interior são os mais doces.",
+      "inspiration": "O universo planta em silêncio o que florescerá no seu tempo."
+    },
+    "Gêmeos": {
+      "text": "A mente dança entre ideias, mas o coração pede uma pausa mais contemplativa. Entre tantas palavras, o silêncio pode ser a resposta. É dia de ouvir mais do que falar — inclusive a si mesmo.",
+      "inspiration": "O vento leva o que é leve, mas guarda no peito o que é verdade."
+    },
+    "Câncer": {
+      "text": "Velhas emoções podem emergir, não para ferir, mas para curar. Olhe com carinho para o que retorna: há uma sabedoria nas memórias que insistem em ficar. Hoje, cuidar de si é um gesto sagrado.",
+      "inspiration": "Quem mergulha em si descobre que até a dor tem marés."
+    },
+    "Leão": {
+      "text": "O brilho que você carrega não precisa ser provado — apenas vivido. Hoje, evite buscar validação fora. O universo lhe convida a reconhecer sua luz com humildade. Há dignidade na autenticidade.",
+      "inspiration": "O sol não precisa de aplausos para nascer — apenas do céu aberto."
+    },
+    "Virgem": {
+      "text": "Seu olhar detalhista é dom, mas hoje talvez seja preciso relaxar o controle. Nem tudo precisa fazer sentido de imediato. Permita-se viver a dúvida como quem rega uma semente ainda invisível.",
+      "inspiration": "A perfeição da vida está justamente nas imperfeições que nos ensinam."
+    },
+    "Libra": {
+      "text": "As relações refletem espelhos que nem sempre gostamos de olhar. Hoje, o céu convida à honestidade suave. Buscar harmonia não é evitar conflitos, mas acolher as verdades com beleza.",
+      "inspiration": "Equilíbrio não é ausência de movimento, mas dança entre extremos."
+    },
+    "Escorpião": {
+      "text": "Há um chamado para desapegar do que pesa. Você não precisa carregar tudo — nem todas as culpas. O renascimento começa quando a alma escolhe soltar.",
+      "inspiration": "Morrer por dentro é às vezes o primeiro passo para renascer com leveza."
+    },
+    "Sagitário": {
+      "text": "O espírito busca horizontes, mas talvez o aprendizado hoje esteja em olhar para dentro. A viagem mais longa pode ser a mais próxima. Fé é o fogo que aquece mesmo quando o mundo esfria.",
+      "inspiration": "As estrelas mais distantes também moram dentro de você."
+    },
+    "Capricórnio": {
+      "text": "A responsabilidade é nobre, mas não se esqueça de que você é mais que suas conquistas. Hoje, permita-se descanso sem culpa. O mundo não desmorona quando você cuida de si.",
+      "inspiration": "A montanha também sonha com o vento leve da madrugada."
+    },
+    "Aquário": {
+      "text": "Ideias novas sopram como brisas de renovação. Mas será que você está ouvindo o chamado? Desafiar padrões é parte da sua essência, mas hoje, talvez o desafio seja acolher também o que é simples.",
+      "inspiration": "A liberdade mais rara é a de ser inteiro — mesmo quando incomum."
+    },
+    "Peixes": {
+      "text": "A sensibilidade pode parecer um fardo, mas é nela que mora sua magia. Intuições surgem com clareza sutil hoje — confie nelas. O invisível também é real quando sentimos com verdade.",
+      "inspiration": "Quem escuta o coração aprende a decifrar os segredos das marés."
+    }
+  },
+  "2025-06-03": {
+    "Áries": {
+      "text": "Hoje, a pressa pode vestir disfarces de urgência, mas o que você realmente precisa talvez seja apenas respirar mais devagar. Há uma força sutil pedindo menos ação e mais percepção. Evite o impulso de resolver tudo com força: há poder também na escuta e na presença.",
+      "inspiration": "Nem toda chama precisa incendiar — algumas iluminam apenas o caminho."
+    },
+    "Touro": {
+      "text": "Há uma ternura silenciosa nos processos lentos. Você está amadurecendo algo por dentro, talvez sem perceber. Confie no tempo, mesmo quando tudo ao redor parecer apressado. Os frutos do cuidado interior são os mais doces.",
+      "inspiration": "O universo planta em silêncio o que florescerá no seu tempo."
+    },
+    "Gêmeos": {
+      "text": "A mente dança entre ideias, mas o coração pede uma pausa mais contemplativa. Entre tantas palavras, o silêncio pode ser a resposta. É dia de ouvir mais do que falar — inclusive a si mesmo.",
+      "inspiration": "O vento leva o que é leve, mas guarda no peito o que é verdade."
+    },
+    "Câncer": {
+      "text": "Velhas emoções podem emergir, não para ferir, mas para curar. Olhe com carinho para o que retorna: há uma sabedoria nas memórias que insistem em ficar. Hoje, cuidar de si é um gesto sagrado.",
+      "inspiration": "Quem mergulha em si descobre que até a dor tem marés."
+    },
+    "Leão": {
+      "text": "O brilho que você carrega não precisa ser provado — apenas vivido. Hoje, evite buscar validação fora. O universo lhe convida a reconhecer sua luz com humildade. Há dignidade na autenticidade.",
+      "inspiration": "O sol não precisa de aplausos para nascer — apenas do céu aberto."
+    },
+    "Virgem": {
+      "text": "Seu olhar detalhista é dom, mas hoje talvez seja preciso relaxar o controle. Nem tudo precisa fazer sentido de imediato. Permita-se viver a dúvida como quem rega uma semente ainda invisível.",
+      "inspiration": "A perfeição da vida está justamente nas imperfeições que nos ensinam."
+    },
+    "Libra": {
+      "text": "As relações refletem espelhos que nem sempre gostamos de olhar. Hoje, o céu convida à honestidade suave. Buscar harmonia não é evitar conflitos, mas acolher as verdades com beleza.",
+      "inspiration": "Equilíbrio não é ausência de movimento, mas dança entre extremos."
+    },
+    "Escorpião": {
+      "text": "Há um chamado para desapegar do que pesa. Você não precisa carregar tudo — nem todas as culpas. O renascimento começa quando a alma escolhe soltar.",
+      "inspiration": "Morrer por dentro é às vezes o primeiro passo para renascer com leveza."
+    },
+    "Sagitário": {
+      "text": "O espírito busca horizontes, mas talvez o aprendizado hoje esteja em olhar para dentro. A viagem mais longa pode ser a mais próxima. Fé é o fogo que aquece mesmo quando o mundo esfria.",
+      "inspiration": "As estrelas mais distantes também moram dentro de você."
+    },
+    "Capricórnio": {
+      "text": "A responsabilidade é nobre, mas não se esqueça de que você é mais que suas conquistas. Hoje, permita-se descanso sem culpa. O mundo não desmorona quando você cuida de si.",
+      "inspiration": "A montanha também sonha com o vento leve da madrugada."
+    },
+    "Aquário": {
+      "text": "Ideias novas sopram como brisas de renovação. Mas será que você está ouvindo o chamado? Desafiar padrões é parte da sua essência, mas hoje, talvez o desafio seja acolher também o que é simples.",
+      "inspiration": "A liberdade mais rara é a de ser inteiro — mesmo quando incomum."
+    },
+    "Peixes": {
+      "text": "A sensibilidade pode parecer um fardo, mas é nela que mora sua magia. Intuições surgem com clareza sutil hoje — confie nelas. O invisível também é real quando sentimos com verdade.",
+      "inspiration": "Quem escuta o coração aprende a decifrar os segredos das marés."
+    }
+  },
+  "2025-06-04": {
+    "Áries": {
+      "text": "Hoje, a pressa pode vestir disfarces de urgência, mas o que você realmente precisa talvez seja apenas respirar mais devagar. Há uma força sutil pedindo menos ação e mais percepção. Evite o impulso de resolver tudo com força: há poder também na escuta e na presença.",
+      "inspiration": "Nem toda chama precisa incendiar — algumas iluminam apenas o caminho."
+    },
+    "Touro": {
+      "text": "Há uma ternura silenciosa nos processos lentos. Você está amadurecendo algo por dentro, talvez sem perceber. Confie no tempo, mesmo quando tudo ao redor parecer apressado. Os frutos do cuidado interior são os mais doces.",
+      "inspiration": "O universo planta em silêncio o que florescerá no seu tempo."
+    },
+    "Gêmeos": {
+      "text": "A mente dança entre ideias, mas o coração pede uma pausa mais contemplativa. Entre tantas palavras, o silêncio pode ser a resposta. É dia de ouvir mais do que falar — inclusive a si mesmo.",
+      "inspiration": "O vento leva o que é leve, mas guarda no peito o que é verdade."
+    },
+    "Câncer": {
+      "text": "Velhas emoções podem emergir, não para ferir, mas para curar. Olhe com carinho para o que retorna: há uma sabedoria nas memórias que insistem em ficar. Hoje, cuidar de si é um gesto sagrado.",
+      "inspiration": "Quem mergulha em si descobre que até a dor tem marés."
+    },
+    "Leão": {
+      "text": "O brilho que você carrega não precisa ser provado — apenas vivido. Hoje, evite buscar validação fora. O universo lhe convida a reconhecer sua luz com humildade. Há dignidade na autenticidade.",
+      "inspiration": "O sol não precisa de aplausos para nascer — apenas do céu aberto."
+    },
+    "Virgem": {
+      "text": "Seu olhar detalhista é dom, mas hoje talvez seja preciso relaxar o controle. Nem tudo precisa fazer sentido de imediato. Permita-se viver a dúvida como quem rega uma semente ainda invisível.",
+      "inspiration": "A perfeição da vida está justamente nas imperfeições que nos ensinam."
+    },
+    "Libra": {
+      "text": "As relações refletem espelhos que nem sempre gostamos de olhar. Hoje, o céu convida à honestidade suave. Buscar harmonia não é evitar conflitos, mas acolher as verdades com beleza.",
+      "inspiration": "Equilíbrio não é ausência de movimento, mas dança entre extremos."
+    },
+    "Escorpião": {
+      "text": "Há um chamado para desapegar do que pesa. Você não precisa carregar tudo — nem todas as culpas. O renascimento começa quando a alma escolhe soltar.",
+      "inspiration": "Morrer por dentro é às vezes o primeiro passo para renascer com leveza."
+    },
+    "Sagitário": {
+      "text": "O espírito busca horizontes, mas talvez o aprendizado hoje esteja em olhar para dentro. A viagem mais longa pode ser a mais próxima. Fé é o fogo que aquece mesmo quando o mundo esfria.",
+      "inspiration": "As estrelas mais distantes também moram dentro de você."
+    },
+    "Capricórnio": {
+      "text": "A responsabilidade é nobre, mas não se esqueça de que você é mais que suas conquistas. Hoje, permita-se descanso sem culpa. O mundo não desmorona quando você cuida de si.",
+      "inspiration": "A montanha também sonha com o vento leve da madrugada."
+    },
+    "Aquário": {
+      "text": "Ideias novas sopram como brisas de renovação. Mas será que você está ouvindo o chamado? Desafiar padrões é parte da sua essência, mas hoje, talvez o desafio seja acolher também o que é simples.",
+      "inspiration": "A liberdade mais rara é a de ser inteiro — mesmo quando incomum."
+    },
+    "Peixes": {
+      "text": "A sensibilidade pode parecer um fardo, mas é nela que mora sua magia. Intuições surgem com clareza sutil hoje — confie nelas. O invisível também é real quando sentimos com verdade.",
+      "inspiration": "Quem escuta o coração aprende a decifrar os segredos das marés."
+    }
+  },
+  "2025-06-05": {
+    "Áries": {
+      "text": "Hoje, a pressa pode vestir disfarces de urgência, mas o que você realmente precisa talvez seja apenas respirar mais devagar. Há uma força sutil pedindo menos ação e mais percepção. Evite o impulso de resolver tudo com força: há poder também na escuta e na presença.",
+      "inspiration": "Nem toda chama precisa incendiar — algumas iluminam apenas o caminho."
+    },
+    "Touro": {
+      "text": "Há uma ternura silenciosa nos processos lentos. Você está amadurecendo algo por dentro, talvez sem perceber. Confie no tempo, mesmo quando tudo ao redor parecer apressado. Os frutos do cuidado interior são os mais doces.",
+      "inspiration": "O universo planta em silêncio o que florescerá no seu tempo."
+    },
+    "Gêmeos": {
+      "text": "A mente dança entre ideias, mas o coração pede uma pausa mais contemplativa. Entre tantas palavras, o silêncio pode ser a resposta. É dia de ouvir mais do que falar — inclusive a si mesmo.",
+      "inspiration": "O vento leva o que é leve, mas guarda no peito o que é verdade."
+    },
+    "Câncer": {
+      "text": "Velhas emoções podem emergir, não para ferir, mas para curar. Olhe com carinho para o que retorna: há uma sabedoria nas memórias que insistem em ficar. Hoje, cuidar de si é um gesto sagrado.",
+      "inspiration": "Quem mergulha em si descobre que até a dor tem marés."
+    },
+    "Leão": {
+      "text": "O brilho que você carrega não precisa ser provado — apenas vivido. Hoje, evite buscar validação fora. O universo lhe convida a reconhecer sua luz com humildade. Há dignidade na autenticidade.",
+      "inspiration": "O sol não precisa de aplausos para nascer — apenas do céu aberto."
+    },
+    "Virgem": {
+      "text": "Seu olhar detalhista é dom, mas hoje talvez seja preciso relaxar o controle. Nem tudo precisa fazer sentido de imediato. Permita-se viver a dúvida como quem rega uma semente ainda invisível.",
+      "inspiration": "A perfeição da vida está justamente nas imperfeições que nos ensinam."
+    },
+    "Libra": {
+      "text": "As relações refletem espelhos que nem sempre gostamos de olhar. Hoje, o céu convida à honestidade suave. Buscar harmonia não é evitar conflitos, mas acolher as verdades com beleza.",
+      "inspiration": "Equilíbrio não é ausência de movimento, mas dança entre extremos."
+    },
+    "Escorpião": {
+      "text": "Há um chamado para desapegar do que pesa. Você não precisa carregar tudo — nem todas as culpas. O renascimento começa quando a alma escolhe soltar.",
+      "inspiration": "Morrer por dentro é às vezes o primeiro passo para renascer com leveza."
+    },
+    "Sagitário": {
+      "text": "O espírito busca horizontes, mas talvez o aprendizado hoje esteja em olhar para dentro. A viagem mais longa pode ser a mais próxima. Fé é o fogo que aquece mesmo quando o mundo esfria.",
+      "inspiration": "As estrelas mais distantes também moram dentro de você."
+    },
+    "Capricórnio": {
+      "text": "A responsabilidade é nobre, mas não se esqueça de que você é mais que suas conquistas. Hoje, permita-se descanso sem culpa. O mundo não desmorona quando você cuida de si.",
+      "inspiration": "A montanha também sonha com o vento leve da madrugada."
+    },
+    "Aquário": {
+      "text": "Ideias novas sopram como brisas de renovação. Mas será que você está ouvindo o chamado? Desafiar padrões é parte da sua essência, mas hoje, talvez o desafio seja acolher também o que é simples.",
+      "inspiration": "A liberdade mais rara é a de ser inteiro — mesmo quando incomum."
+    },
+    "Peixes": {
+      "text": "A sensibilidade pode parecer um fardo, mas é nela que mora sua magia. Intuições surgem com clareza sutil hoje — confie nelas. O invisível também é real quando sentimos com verdade.",
+      "inspiration": "Quem escuta o coração aprende a decifrar os segredos das marés."
+    }
+  },
+  "2025-06-06": {
+    "Áries": {
+      "text": "Hoje, a pressa pode vestir disfarces de urgência, mas o que você realmente precisa talvez seja apenas respirar mais devagar. Há uma força sutil pedindo menos ação e mais percepção. Evite o impulso de resolver tudo com força: há poder também na escuta e na presença.",
+      "inspiration": "Nem toda chama precisa incendiar — algumas iluminam apenas o caminho."
+    },
+    "Touro": {
+      "text": "Há uma ternura silenciosa nos processos lentos. Você está amadurecendo algo por dentro, talvez sem perceber. Confie no tempo, mesmo quando tudo ao redor parecer apressado. Os frutos do cuidado interior são os mais doces.",
+      "inspiration": "O universo planta em silêncio o que florescerá no seu tempo."
+    },
+    "Gêmeos": {
+      "text": "A mente dança entre ideias, mas o coração pede uma pausa mais contemplativa. Entre tantas palavras, o silêncio pode ser a resposta. É dia de ouvir mais do que falar — inclusive a si mesmo.",
+      "inspiration": "O vento leva o que é leve, mas guarda no peito o que é verdade."
+    },
+    "Câncer": {
+      "text": "Velhas emoções podem emergir, não para ferir, mas para curar. Olhe com carinho para o que retorna: há uma sabedoria nas memórias que insistem em ficar. Hoje, cuidar de si é um gesto sagrado.",
+      "inspiration": "Quem mergulha em si descobre que até a dor tem marés."
+    },
+    "Leão": {
+      "text": "O brilho que você carrega não precisa ser provado — apenas vivido. Hoje, evite buscar validação fora. O universo lhe convida a reconhecer sua luz com humildade. Há dignidade na autenticidade.",
+      "inspiration": "O sol não precisa de aplausos para nascer — apenas do céu aberto."
+    },
+    "Virgem": {
+      "text": "Seu olhar detalhista é dom, mas hoje talvez seja preciso relaxar o controle. Nem tudo precisa fazer sentido de imediato. Permita-se viver a dúvida como quem rega uma semente ainda invisível.",
+      "inspiration": "A perfeição da vida está justamente nas imperfeições que nos ensinam."
+    },
+    "Libra": {
+      "text": "As relações refletem espelhos que nem sempre gostamos de olhar. Hoje, o céu convida à honestidade suave. Buscar harmonia não é evitar conflitos, mas acolher as verdades com beleza.",
+      "inspiration": "Equilíbrio não é ausência de movimento, mas dança entre extremos."
+    },
+    "Escorpião": {
+      "text": "Há um chamado para desapegar do que pesa. Você não precisa carregar tudo — nem todas as culpas. O renascimento começa quando a alma escolhe soltar.",
+      "inspiration": "Morrer por dentro é às vezes o primeiro passo para renascer com leveza."
+    },
+    "Sagitário": {
+      "text": "O espírito busca horizontes, mas talvez o aprendizado hoje esteja em olhar para dentro. A viagem mais longa pode ser a mais próxima. Fé é o fogo que aquece mesmo quando o mundo esfria.",
+      "inspiration": "As estrelas mais distantes também moram dentro de você."
+    },
+    "Capricórnio": {
+      "text": "A responsabilidade é nobre, mas não se esqueça de que você é mais que suas conquistas. Hoje, permita-se descanso sem culpa. O mundo não desmorona quando você cuida de si.",
+      "inspiration": "A montanha também sonha com o vento leve da madrugada."
+    },
+    "Aquário": {
+      "text": "Ideias novas sopram como brisas de renovação. Mas será que você está ouvindo o chamado? Desafiar padrões é parte da sua essência, mas hoje, talvez o desafio seja acolher também o que é simples.",
+      "inspiration": "A liberdade mais rara é a de ser inteiro — mesmo quando incomum."
+    },
+    "Peixes": {
+      "text": "A sensibilidade pode parecer um fardo, mas é nela que mora sua magia. Intuições surgem com clareza sutil hoje — confie nelas. O invisível também é real quando sentimos com verdade.",
+      "inspiration": "Quem escuta o coração aprende a decifrar os segredos das marés."
+    }
+  },
+  "2025-06-07": {
+    "Áries": {
+      "text": "Hoje, a pressa pode vestir disfarces de urgência, mas o que você realmente precisa talvez seja apenas respirar mais devagar. Há uma força sutil pedindo menos ação e mais percepção. Evite o impulso de resolver tudo com força: há poder também na escuta e na presença.",
+      "inspiration": "Nem toda chama precisa incendiar — algumas iluminam apenas o caminho."
+    },
+    "Touro": {
+      "text": "Há uma ternura silenciosa nos processos lentos. Você está amadurecendo algo por dentro, talvez sem perceber. Confie no tempo, mesmo quando tudo ao redor parecer apressado. Os frutos do cuidado interior são os mais doces.",
+      "inspiration": "O universo planta em silêncio o que florescerá no seu tempo."
+    },
+    "Gêmeos": {
+      "text": "A mente dança entre ideias, mas o coração pede uma pausa mais contemplativa. Entre tantas palavras, o silêncio pode ser a resposta. É dia de ouvir mais do que falar — inclusive a si mesmo.",
+      "inspiration": "O vento leva o que é leve, mas guarda no peito o que é verdade."
+    },
+    "Câncer": {
+      "text": "Velhas emoções podem emergir, não para ferir, mas para curar. Olhe com carinho para o que retorna: há uma sabedoria nas memórias que insistem em ficar. Hoje, cuidar de si é um gesto sagrado.",
+      "inspiration": "Quem mergulha em si descobre que até a dor tem marés."
+    },
+    "Leão": {
+      "text": "O brilho que você carrega não precisa ser provado — apenas vivido. Hoje, evite buscar validação fora. O universo lhe convida a reconhecer sua luz com humildade. Há dignidade na autenticidade.",
+      "inspiration": "O sol não precisa de aplausos para nascer — apenas do céu aberto."
+    },
+    "Virgem": {
+      "text": "Seu olhar detalhista é dom, mas hoje talvez seja preciso relaxar o controle. Nem tudo precisa fazer sentido de imediato. Permita-se viver a dúvida como quem rega uma semente ainda invisível.",
+      "inspiration": "A perfeição da vida está justamente nas imperfeições que nos ensinam."
+    },
+    "Libra": {
+      "text": "As relações refletem espelhos que nem sempre gostamos de olhar. Hoje, o céu convida à honestidade suave. Buscar harmonia não é evitar conflitos, mas acolher as verdades com beleza.",
+      "inspiration": "Equilíbrio não é ausência de movimento, mas dança entre extremos."
+    },
+    "Escorpião": {
+      "text": "Há um chamado para desapegar do que pesa. Você não precisa carregar tudo — nem todas as culpas. O renascimento começa quando a alma escolhe soltar.",
+      "inspiration": "Morrer por dentro é às vezes o primeiro passo para renascer com leveza."
+    },
+    "Sagitário": {
+      "text": "O espírito busca horizontes, mas talvez o aprendizado hoje esteja em olhar para dentro. A viagem mais longa pode ser a mais próxima. Fé é o fogo que aquece mesmo quando o mundo esfria.",
+      "inspiration": "As estrelas mais distantes também moram dentro de você."
+    },
+    "Capricórnio": {
+      "text": "A responsabilidade é nobre, mas não se esqueça de que você é mais que suas conquistas. Hoje, permita-se descanso sem culpa. O mundo não desmorona quando você cuida de si.",
+      "inspiration": "A montanha também sonha com o vento leve da madrugada."
+    },
+    "Aquário": {
+      "text": "Ideias novas sopram como brisas de renovação. Mas será que você está ouvindo o chamado? Desafiar padrões é parte da sua essência, mas hoje, talvez o desafio seja acolher também o que é simples.",
+      "inspiration": "A liberdade mais rara é a de ser inteiro — mesmo quando incomum."
+    },
+    "Peixes": {
+      "text": "A sensibilidade pode parecer um fardo, mas é nela que mora sua magia. Intuições surgem com clareza sutil hoje — confie nelas. O invisível também é real quando sentimos com verdade.",
+      "inspiration": "Quem escuta o coração aprende a decifrar os segredos das marés."
+    }
+  },
+  "2025-06-08": {
+    "Áries": {
+      "text": "Hoje, a pressa pode vestir disfarces de urgência, mas o que você realmente precisa talvez seja apenas respirar mais devagar. Há uma força sutil pedindo menos ação e mais percepção. Evite o impulso de resolver tudo com força: há poder também na escuta e na presença.",
+      "inspiration": "Nem toda chama precisa incendiar — algumas iluminam apenas o caminho."
+    },
+    "Touro": {
+      "text": "Há uma ternura silenciosa nos processos lentos. Você está amadurecendo algo por dentro, talvez sem perceber. Confie no tempo, mesmo quando tudo ao redor parecer apressado. Os frutos do cuidado interior são os mais doces.",
+      "inspiration": "O universo planta em silêncio o que florescerá no seu tempo."
+    },
+    "Gêmeos": {
+      "text": "A mente dança entre ideias, mas o coração pede uma pausa mais contemplativa. Entre tantas palavras, o silêncio pode ser a resposta. É dia de ouvir mais do que falar — inclusive a si mesmo.",
+      "inspiration": "O vento leva o que é leve, mas guarda no peito o que é verdade."
+    },
+    "Câncer": {
+      "text": "Velhas emoções podem emergir, não para ferir, mas para curar. Olhe com carinho para o que retorna: há uma sabedoria nas memórias que insistem em ficar. Hoje, cuidar de si é um gesto sagrado.",
+      "inspiration": "Quem mergulha em si descobre que até a dor tem marés."
+    },
+    "Leão": {
+      "text": "O brilho que você carrega não precisa ser provado — apenas vivido. Hoje, evite buscar validação fora. O universo lhe convida a reconhecer sua luz com humildade. Há dignidade na autenticidade.",
+      "inspiration": "O sol não precisa de aplausos para nascer — apenas do céu aberto."
+    },
+    "Virgem": {
+      "text": "Seu olhar detalhista é dom, mas hoje talvez seja preciso relaxar o controle. Nem tudo precisa fazer sentido de imediato. Permita-se viver a dúvida como quem rega uma semente ainda invisível.",
+      "inspiration": "A perfeição da vida está justamente nas imperfeições que nos ensinam."
+    },
+    "Libra": {
+      "text": "As relações refletem espelhos que nem sempre gostamos de olhar. Hoje, o céu convida à honestidade suave. Buscar harmonia não é evitar conflitos, mas acolher as verdades com beleza.",
+      "inspiration": "Equilíbrio não é ausência de movimento, mas dança entre extremos."
+    },
+    "Escorpião": {
+      "text": "Há um chamado para desapegar do que pesa. Você não precisa carregar tudo — nem todas as culpas. O renascimento começa quando a alma escolhe soltar.",
+      "inspiration": "Morrer por dentro é às vezes o primeiro passo para renascer com leveza."
+    },
+    "Sagitário": {
+      "text": "O espírito busca horizontes, mas talvez o aprendizado hoje esteja em olhar para dentro. A viagem mais longa pode ser a mais próxima. Fé é o fogo que aquece mesmo quando o mundo esfria.",
+      "inspiration": "As estrelas mais distantes também moram dentro de você."
+    },
+    "Capricórnio": {
+      "text": "A responsabilidade é nobre, mas não se esqueça de que você é mais que suas conquistas. Hoje, permita-se descanso sem culpa. O mundo não desmorona quando você cuida de si.",
+      "inspiration": "A montanha também sonha com o vento leve da madrugada."
+    },
+    "Aquário": {
+      "text": "Ideias novas sopram como brisas de renovação. Mas será que você está ouvindo o chamado? Desafiar padrões é parte da sua essência, mas hoje, talvez o desafio seja acolher também o que é simples.",
+      "inspiration": "A liberdade mais rara é a de ser inteiro — mesmo quando incomum."
+    },
+    "Peixes": {
+      "text": "A sensibilidade pode parecer um fardo, mas é nela que mora sua magia. Intuições surgem com clareza sutil hoje — confie nelas. O invisível também é real quando sentimos com verdade.",
+      "inspiration": "Quem escuta o coração aprende a decifrar os segredos das marés."
+    }
+  },
+  "2025-06-09": {
+    "Áries": {
+      "text": "Hoje, a pressa pode vestir disfarces de urgência, mas o que você realmente precisa talvez seja apenas respirar mais devagar. Há uma força sutil pedindo menos ação e mais percepção. Evite o impulso de resolver tudo com força: há poder também na escuta e na presença.",
+      "inspiration": "Nem toda chama precisa incendiar — algumas iluminam apenas o caminho."
+    },
+    "Touro": {
+      "text": "Há uma ternura silenciosa nos processos lentos. Você está amadurecendo algo por dentro, talvez sem perceber. Confie no tempo, mesmo quando tudo ao redor parecer apressado. Os frutos do cuidado interior são os mais doces.",
+      "inspiration": "O universo planta em silêncio o que florescerá no seu tempo."
+    },
+    "Gêmeos": {
+      "text": "A mente dança entre ideias, mas o coração pede uma pausa mais contemplativa. Entre tantas palavras, o silêncio pode ser a resposta. É dia de ouvir mais do que falar — inclusive a si mesmo.",
+      "inspiration": "O vento leva o que é leve, mas guarda no peito o que é verdade."
+    },
+    "Câncer": {
+      "text": "Velhas emoções podem emergir, não para ferir, mas para curar. Olhe com carinho para o que retorna: há uma sabedoria nas memórias que insistem em ficar. Hoje, cuidar de si é um gesto sagrado.",
+      "inspiration": "Quem mergulha em si descobre que até a dor tem marés."
+    },
+    "Leão": {
+      "text": "O brilho que você carrega não precisa ser provado — apenas vivido. Hoje, evite buscar validação fora. O universo lhe convida a reconhecer sua luz com humildade. Há dignidade na autenticidade.",
+      "inspiration": "O sol não precisa de aplausos para nascer — apenas do céu aberto."
+    },
+    "Virgem": {
+      "text": "Seu olhar detalhista é dom, mas hoje talvez seja preciso relaxar o controle. Nem tudo precisa fazer sentido de imediato. Permita-se viver a dúvida como quem rega uma semente ainda invisível.",
+      "inspiration": "A perfeição da vida está justamente nas imperfeições que nos ensinam."
+    },
+    "Libra": {
+      "text": "As relações refletem espelhos que nem sempre gostamos de olhar. Hoje, o céu convida à honestidade suave. Buscar harmonia não é evitar conflitos, mas acolher as verdades com beleza.",
+      "inspiration": "Equilíbrio não é ausência de movimento, mas dança entre extremos."
+    },
+    "Escorpião": {
+      "text": "Há um chamado para desapegar do que pesa. Você não precisa carregar tudo — nem todas as culpas. O renascimento começa quando a alma escolhe soltar.",
+      "inspiration": "Morrer por dentro é às vezes o primeiro passo para renascer com leveza."
+    },
+    "Sagitário": {
+      "text": "O espírito busca horizontes, mas talvez o aprendizado hoje esteja em olhar para dentro. A viagem mais longa pode ser a mais próxima. Fé é o fogo que aquece mesmo quando o mundo esfria.",
+      "inspiration": "As estrelas mais distantes também moram dentro de você."
+    },
+    "Capricórnio": {
+      "text": "A responsabilidade é nobre, mas não se esqueça de que você é mais que suas conquistas. Hoje, permita-se descanso sem culpa. O mundo não desmorona quando você cuida de si.",
+      "inspiration": "A montanha também sonha com o vento leve da madrugada."
+    },
+    "Aquário": {
+      "text": "Ideias novas sopram como brisas de renovação. Mas será que você está ouvindo o chamado? Desafiar padrões é parte da sua essência, mas hoje, talvez o desafio seja acolher também o que é simples.",
+      "inspiration": "A liberdade mais rara é a de ser inteiro — mesmo quando incomum."
+    },
+    "Peixes": {
+      "text": "A sensibilidade pode parecer um fardo, mas é nela que mora sua magia. Intuições surgem com clareza sutil hoje — confie nelas. O invisível também é real quando sentimos com verdade.",
+      "inspiration": "Quem escuta o coração aprende a decifrar os segredos das marés."
+    }
+  },
+  "2025-06-10": {
+    "Áries": {
+      "text": "Hoje, a pressa pode vestir disfarces de urgência, mas o que você realmente precisa talvez seja apenas respirar mais devagar. Há uma força sutil pedindo menos ação e mais percepção. Evite o impulso de resolver tudo com força: há poder também na escuta e na presença.",
+      "inspiration": "Nem toda chama precisa incendiar — algumas iluminam apenas o caminho."
+    },
+    "Touro": {
+      "text": "Há uma ternura silenciosa nos processos lentos. Você está amadurecendo algo por dentro, talvez sem perceber. Confie no tempo, mesmo quando tudo ao redor parecer apressado. Os frutos do cuidado interior são os mais doces.",
+      "inspiration": "O universo planta em silêncio o que florescerá no seu tempo."
+    },
+    "Gêmeos": {
+      "text": "A mente dança entre ideias, mas o coração pede uma pausa mais contemplativa. Entre tantas palavras, o silêncio pode ser a resposta. É dia de ouvir mais do que falar — inclusive a si mesmo.",
+      "inspiration": "O vento leva o que é leve, mas guarda no peito o que é verdade."
+    },
+    "Câncer": {
+      "text": "Velhas emoções podem emergir, não para ferir, mas para curar. Olhe com carinho para o que retorna: há uma sabedoria nas memórias que insistem em ficar. Hoje, cuidar de si é um gesto sagrado.",
+      "inspiration": "Quem mergulha em si descobre que até a dor tem marés."
+    },
+    "Leão": {
+      "text": "O brilho que você carrega não precisa ser provado — apenas vivido. Hoje, evite buscar validação fora. O universo lhe convida a reconhecer sua luz com humildade. Há dignidade na autenticidade.",
+      "inspiration": "O sol não precisa de aplausos para nascer — apenas do céu aberto."
+    },
+    "Virgem": {
+      "text": "Seu olhar detalhista é dom, mas hoje talvez seja preciso relaxar o controle. Nem tudo precisa fazer sentido de imediato. Permita-se viver a dúvida como quem rega uma semente ainda invisível.",
+      "inspiration": "A perfeição da vida está justamente nas imperfeições que nos ensinam."
+    },
+    "Libra": {
+      "text": "As relações refletem espelhos que nem sempre gostamos de olhar. Hoje, o céu convida à honestidade suave. Buscar harmonia não é evitar conflitos, mas acolher as verdades com beleza.",
+      "inspiration": "Equilíbrio não é ausência de movimento, mas dança entre extremos."
+    },
+    "Escorpião": {
+      "text": "Há um chamado para desapegar do que pesa. Você não precisa carregar tudo — nem todas as culpas. O renascimento começa quando a alma escolhe soltar.",
+      "inspiration": "Morrer por dentro é às vezes o primeiro passo para renascer com leveza."
+    },
+    "Sagitário": {
+      "text": "O espírito busca horizontes, mas talvez o aprendizado hoje esteja em olhar para dentro. A viagem mais longa pode ser a mais próxima. Fé é o fogo que aquece mesmo quando o mundo esfria.",
+      "inspiration": "As estrelas mais distantes também moram dentro de você."
+    },
+    "Capricórnio": {
+      "text": "A responsabilidade é nobre, mas não se esqueça de que você é mais que suas conquistas. Hoje, permita-se descanso sem culpa. O mundo não desmorona quando você cuida de si.",
+      "inspiration": "A montanha também sonha com o vento leve da madrugada."
+    },
+    "Aquário": {
+      "text": "Ideias novas sopram como brisas de renovação. Mas será que você está ouvindo o chamado? Desafiar padrões é parte da sua essência, mas hoje, talvez o desafio seja acolher também o que é simples.",
+      "inspiration": "A liberdade mais rara é a de ser inteiro — mesmo quando incomum."
+    },
+    "Peixes": {
+      "text": "A sensibilidade pode parecer um fardo, mas é nela que mora sua magia. Intuições surgem com clareza sutil hoje — confie nelas. O invisível também é real quando sentimos com verdade.",
+      "inspiration": "Quem escuta o coração aprende a decifrar os segredos das marés."
+    }
+  },
+  "2025-06-11": {
+    "Áries": {
+      "text": "Hoje, a pressa pode vestir disfarces de urgência, mas o que você realmente precisa talvez seja apenas respirar mais devagar. Há uma força sutil pedindo menos ação e mais percepção. Evite o impulso de resolver tudo com força: há poder também na escuta e na presença.",
+      "inspiration": "Nem toda chama precisa incendiar — algumas iluminam apenas o caminho."
+    },
+    "Touro": {
+      "text": "Há uma ternura silenciosa nos processos lentos. Você está amadurecendo algo por dentro, talvez sem perceber. Confie no tempo, mesmo quando tudo ao redor parecer apressado. Os frutos do cuidado interior são os mais doces.",
+      "inspiration": "O universo planta em silêncio o que florescerá no seu tempo."
+    },
+    "Gêmeos": {
+      "text": "A mente dança entre ideias, mas o coração pede uma pausa mais contemplativa. Entre tantas palavras, o silêncio pode ser a resposta. É dia de ouvir mais do que falar — inclusive a si mesmo.",
+      "inspiration": "O vento leva o que é leve, mas guarda no peito o que é verdade."
+    },
+    "Câncer": {
+      "text": "Velhas emoções podem emergir, não para ferir, mas para curar. Olhe com carinho para o que retorna: há uma sabedoria nas memórias que insistem em ficar. Hoje, cuidar de si é um gesto sagrado.",
+      "inspiration": "Quem mergulha em si descobre que até a dor tem marés."
+    },
+    "Leão": {
+      "text": "O brilho que você carrega não precisa ser provado — apenas vivido. Hoje, evite buscar validação fora. O universo lhe convida a reconhecer sua luz com humildade. Há dignidade na autenticidade.",
+      "inspiration": "O sol não precisa de aplausos para nascer — apenas do céu aberto."
+    },
+    "Virgem": {
+      "text": "Seu olhar detalhista é dom, mas hoje talvez seja preciso relaxar o controle. Nem tudo precisa fazer sentido de imediato. Permita-se viver a dúvida como quem rega uma semente ainda invisível.",
+      "inspiration": "A perfeição da vida está justamente nas imperfeições que nos ensinam."
+    },
+    "Libra": {
+      "text": "As relações refletem espelhos que nem sempre gostamos de olhar. Hoje, o céu convida à honestidade suave. Buscar harmonia não é evitar conflitos, mas acolher as verdades com beleza.",
+      "inspiration": "Equilíbrio não é ausência de movimento, mas dança entre extremos."
+    },
+    "Escorpião": {
+      "text": "Há um chamado para desapegar do que pesa. Você não precisa carregar tudo — nem todas as culpas. O renascimento começa quando a alma escolhe soltar.",
+      "inspiration": "Morrer por dentro é às vezes o primeiro passo para renascer com leveza."
+    },
+    "Sagitário": {
+      "text": "O espírito busca horizontes, mas talvez o aprendizado hoje esteja em olhar para dentro. A viagem mais longa pode ser a mais próxima. Fé é o fogo que aquece mesmo quando o mundo esfria.",
+      "inspiration": "As estrelas mais distantes também moram dentro de você."
+    },
+    "Capricórnio": {
+      "text": "A responsabilidade é nobre, mas não se esqueça de que você é mais que suas conquistas. Hoje, permita-se descanso sem culpa. O mundo não desmorona quando você cuida de si.",
+      "inspiration": "A montanha também sonha com o vento leve da madrugada."
+    },
+    "Aquário": {
+      "text": "Ideias novas sopram como brisas de renovação. Mas será que você está ouvindo o chamado? Desafiar padrões é parte da sua essência, mas hoje, talvez o desafio seja acolher também o que é simples.",
+      "inspiration": "A liberdade mais rara é a de ser inteiro — mesmo quando incomum."
+    },
+    "Peixes": {
+      "text": "A sensibilidade pode parecer um fardo, mas é nela que mora sua magia. Intuições surgem com clareza sutil hoje — confie nelas. O invisível também é real quando sentimos com verdade.",
+      "inspiration": "Quem escuta o coração aprende a decifrar os segredos das marés."
+    }
+  },
+  "2025-06-12": {
+    "Áries": {
+      "text": "Hoje, a pressa pode vestir disfarces de urgência, mas o que você realmente precisa talvez seja apenas respirar mais devagar. Há uma força sutil pedindo menos ação e mais percepção. Evite o impulso de resolver tudo com força: há poder também na escuta e na presença.",
+      "inspiration": "Nem toda chama precisa incendiar — algumas iluminam apenas o caminho."
+    },
+    "Touro": {
+      "text": "Há uma ternura silenciosa nos processos lentos. Você está amadurecendo algo por dentro, talvez sem perceber. Confie no tempo, mesmo quando tudo ao redor parecer apressado. Os frutos do cuidado interior são os mais doces.",
+      "inspiration": "O universo planta em silêncio o que florescerá no seu tempo."
+    },
+    "Gêmeos": {
+      "text": "A mente dança entre ideias, mas o coração pede uma pausa mais contemplativa. Entre tantas palavras, o silêncio pode ser a resposta. É dia de ouvir mais do que falar — inclusive a si mesmo.",
+      "inspiration": "O vento leva o que é leve, mas guarda no peito o que é verdade."
+    },
+    "Câncer": {
+      "text": "Velhas emoções podem emergir, não para ferir, mas para curar. Olhe com carinho para o que retorna: há uma sabedoria nas memórias que insistem em ficar. Hoje, cuidar de si é um gesto sagrado.",
+      "inspiration": "Quem mergulha em si descobre que até a dor tem marés."
+    },
+    "Leão": {
+      "text": "O brilho que você carrega não precisa ser provado — apenas vivido. Hoje, evite buscar validação fora. O universo lhe convida a reconhecer sua luz com humildade. Há dignidade na autenticidade.",
+      "inspiration": "O sol não precisa de aplausos para nascer — apenas do céu aberto."
+    },
+    "Virgem": {
+      "text": "Seu olhar detalhista é dom, mas hoje talvez seja preciso relaxar o controle. Nem tudo precisa fazer sentido de imediato. Permita-se viver a dúvida como quem rega uma semente ainda invisível.",
+      "inspiration": "A perfeição da vida está justamente nas imperfeições que nos ensinam."
+    },
+    "Libra": {
+      "text": "As relações refletem espelhos que nem sempre gostamos de olhar. Hoje, o céu convida à honestidade suave. Buscar harmonia não é evitar conflitos, mas acolher as verdades com beleza.",
+      "inspiration": "Equilíbrio não é ausência de movimento, mas dança entre extremos."
+    },
+    "Escorpião": {
+      "text": "Há um chamado para desapegar do que pesa. Você não precisa carregar tudo — nem todas as culpas. O renascimento começa quando a alma escolhe soltar.",
+      "inspiration": "Morrer por dentro é às vezes o primeiro passo para renascer com leveza."
+    },
+    "Sagitário": {
+      "text": "O espírito busca horizontes, mas talvez o aprendizado hoje esteja em olhar para dentro. A viagem mais longa pode ser a mais próxima. Fé é o fogo que aquece mesmo quando o mundo esfria.",
+      "inspiration": "As estrelas mais distantes também moram dentro de você."
+    },
+    "Capricórnio": {
+      "text": "A responsabilidade é nobre, mas não se esqueça de que você é mais que suas conquistas. Hoje, permita-se descanso sem culpa. O mundo não desmorona quando você cuida de si.",
+      "inspiration": "A montanha também sonha com o vento leve da madrugada."
+    },
+    "Aquário": {
+      "text": "Ideias novas sopram como brisas de renovação. Mas será que você está ouvindo o chamado? Desafiar padrões é parte da sua essência, mas hoje, talvez o desafio seja acolher também o que é simples.",
+      "inspiration": "A liberdade mais rara é a de ser inteiro — mesmo quando incomum."
+    },
+    "Peixes": {
+      "text": "A sensibilidade pode parecer um fardo, mas é nela que mora sua magia. Intuições surgem com clareza sutil hoje — confie nelas. O invisível também é real quando sentimos com verdade.",
+      "inspiration": "Quem escuta o coração aprende a decifrar os segredos das marés."
+    }
+  },
+  "2025-06-13": {
+    "Áries": {
+      "text": "Hoje, a pressa pode vestir disfarces de urgência, mas o que você realmente precisa talvez seja apenas respirar mais devagar. Há uma força sutil pedindo menos ação e mais percepção. Evite o impulso de resolver tudo com força: há poder também na escuta e na presença.",
+      "inspiration": "Nem toda chama precisa incendiar — algumas iluminam apenas o caminho."
+    },
+    "Touro": {
+      "text": "Há uma ternura silenciosa nos processos lentos. Você está amadurecendo algo por dentro, talvez sem perceber. Confie no tempo, mesmo quando tudo ao redor parecer apressado. Os frutos do cuidado interior são os mais doces.",
+      "inspiration": "O universo planta em silêncio o que florescerá no seu tempo."
+    },
+    "Gêmeos": {
+      "text": "A mente dança entre ideias, mas o coração pede uma pausa mais contemplativa. Entre tantas palavras, o silêncio pode ser a resposta. É dia de ouvir mais do que falar — inclusive a si mesmo.",
+      "inspiration": "O vento leva o que é leve, mas guarda no peito o que é verdade."
+    },
+    "Câncer": {
+      "text": "Velhas emoções podem emergir, não para ferir, mas para curar. Olhe com carinho para o que retorna: há uma sabedoria nas memórias que insistem em ficar. Hoje, cuidar de si é um gesto sagrado.",
+      "inspiration": "Quem mergulha em si descobre que até a dor tem marés."
+    },
+    "Leão": {
+      "text": "O brilho que você carrega não precisa ser provado — apenas vivido. Hoje, evite buscar validação fora. O universo lhe convida a reconhecer sua luz com humildade. Há dignidade na autenticidade.",
+      "inspiration": "O sol não precisa de aplausos para nascer — apenas do céu aberto."
+    },
+    "Virgem": {
+      "text": "Seu olhar detalhista é dom, mas hoje talvez seja preciso relaxar o controle. Nem tudo precisa fazer sentido de imediato. Permita-se viver a dúvida como quem rega uma semente ainda invisível.",
+      "inspiration": "A perfeição da vida está justamente nas imperfeições que nos ensinam."
+    },
+    "Libra": {
+      "text": "As relações refletem espelhos que nem sempre gostamos de olhar. Hoje, o céu convida à honestidade suave. Buscar harmonia não é evitar conflitos, mas acolher as verdades com beleza.",
+      "inspiration": "Equilíbrio não é ausência de movimento, mas dança entre extremos."
+    },
+    "Escorpião": {
+      "text": "Há um chamado para desapegar do que pesa. Você não precisa carregar tudo — nem todas as culpas. O renascimento começa quando a alma escolhe soltar.",
+      "inspiration": "Morrer por dentro é às vezes o primeiro passo para renascer com leveza."
+    },
+    "Sagitário": {
+      "text": "O espírito busca horizontes, mas talvez o aprendizado hoje esteja em olhar para dentro. A viagem mais longa pode ser a mais próxima. Fé é o fogo que aquece mesmo quando o mundo esfria.",
+      "inspiration": "As estrelas mais distantes também moram dentro de você."
+    },
+    "Capricórnio": {
+      "text": "A responsabilidade é nobre, mas não se esqueça de que você é mais que suas conquistas. Hoje, permita-se descanso sem culpa. O mundo não desmorona quando você cuida de si.",
+      "inspiration": "A montanha também sonha com o vento leve da madrugada."
+    },
+    "Aquário": {
+      "text": "Ideias novas sopram como brisas de renovação. Mas será que você está ouvindo o chamado? Desafiar padrões é parte da sua essência, mas hoje, talvez o desafio seja acolher também o que é simples.",
+      "inspiration": "A liberdade mais rara é a de ser inteiro — mesmo quando incomum."
+    },
+    "Peixes": {
+      "text": "A sensibilidade pode parecer um fardo, mas é nela que mora sua magia. Intuições surgem com clareza sutil hoje — confie nelas. O invisível também é real quando sentimos com verdade.",
+      "inspiration": "Quem escuta o coração aprende a decifrar os segredos das marés."
+    }
+  },
+  "2025-06-14": {
+    "Áries": {
+      "text": "Hoje, a pressa pode vestir disfarces de urgência, mas o que você realmente precisa talvez seja apenas respirar mais devagar. Há uma força sutil pedindo menos ação e mais percepção. Evite o impulso de resolver tudo com força: há poder também na escuta e na presença.",
+      "inspiration": "Nem toda chama precisa incendiar — algumas iluminam apenas o caminho."
+    },
+    "Touro": {
+      "text": "Há uma ternura silenciosa nos processos lentos. Você está amadurecendo algo por dentro, talvez sem perceber. Confie no tempo, mesmo quando tudo ao redor parecer apressado. Os frutos do cuidado interior são os mais doces.",
+      "inspiration": "O universo planta em silêncio o que florescerá no seu tempo."
+    },
+    "Gêmeos": {
+      "text": "A mente dança entre ideias, mas o coração pede uma pausa mais contemplativa. Entre tantas palavras, o silêncio pode ser a resposta. É dia de ouvir mais do que falar — inclusive a si mesmo.",
+      "inspiration": "O vento leva o que é leve, mas guarda no peito o que é verdade."
+    },
+    "Câncer": {
+      "text": "Velhas emoções podem emergir, não para ferir, mas para curar. Olhe com carinho para o que retorna: há uma sabedoria nas memórias que insistem em ficar. Hoje, cuidar de si é um gesto sagrado.",
+      "inspiration": "Quem mergulha em si descobre que até a dor tem marés."
+    },
+    "Leão": {
+      "text": "O brilho que você carrega não precisa ser provado — apenas vivido. Hoje, evite buscar validação fora. O universo lhe convida a reconhecer sua luz com humildade. Há dignidade na autenticidade.",
+      "inspiration": "O sol não precisa de aplausos para nascer — apenas do céu aberto."
+    },
+    "Virgem": {
+      "text": "Seu olhar detalhista é dom, mas hoje talvez seja preciso relaxar o controle. Nem tudo precisa fazer sentido de imediato. Permita-se viver a dúvida como quem rega uma semente ainda invisível.",
+      "inspiration": "A perfeição da vida está justamente nas imperfeições que nos ensinam."
+    },
+    "Libra": {
+      "text": "As relações refletem espelhos que nem sempre gostamos de olhar. Hoje, o céu convida à honestidade suave. Buscar harmonia não é evitar conflitos, mas acolher as verdades com beleza.",
+      "inspiration": "Equilíbrio não é ausência de movimento, mas dança entre extremos."
+    },
+    "Escorpião": {
+      "text": "Há um chamado para desapegar do que pesa. Você não precisa carregar tudo — nem todas as culpas. O renascimento começa quando a alma escolhe soltar.",
+      "inspiration": "Morrer por dentro é às vezes o primeiro passo para renascer com leveza."
+    },
+    "Sagitário": {
+      "text": "O espírito busca horizontes, mas talvez o aprendizado hoje esteja em olhar para dentro. A viagem mais longa pode ser a mais próxima. Fé é o fogo que aquece mesmo quando o mundo esfria.",
+      "inspiration": "As estrelas mais distantes também moram dentro de você."
+    },
+    "Capricórnio": {
+      "text": "A responsabilidade é nobre, mas não se esqueça de que você é mais que suas conquistas. Hoje, permita-se descanso sem culpa. O mundo não desmorona quando você cuida de si.",
+      "inspiration": "A montanha também sonha com o vento leve da madrugada."
+    },
+    "Aquário": {
+      "text": "Ideias novas sopram como brisas de renovação. Mas será que você está ouvindo o chamado? Desafiar padrões é parte da sua essência, mas hoje, talvez o desafio seja acolher também o que é simples.",
+      "inspiration": "A liberdade mais rara é a de ser inteiro — mesmo quando incomum."
+    },
+    "Peixes": {
+      "text": "A sensibilidade pode parecer um fardo, mas é nela que mora sua magia. Intuições surgem com clareza sutil hoje — confie nelas. O invisível também é real quando sentimos com verdade.",
+      "inspiration": "Quem escuta o coração aprende a decifrar os segredos das marés."
+    }
+  },
+  "2025-06-15": {
+    "Áries": {
+      "text": "Hoje, a pressa pode vestir disfarces de urgência, mas o que você realmente precisa talvez seja apenas respirar mais devagar. Há uma força sutil pedindo menos ação e mais percepção. Evite o impulso de resolver tudo com força: há poder também na escuta e na presença.",
+      "inspiration": "Nem toda chama precisa incendiar — algumas iluminam apenas o caminho."
+    },
+    "Touro": {
+      "text": "Há uma ternura silenciosa nos processos lentos. Você está amadurecendo algo por dentro, talvez sem perceber. Confie no tempo, mesmo quando tudo ao redor parecer apressado. Os frutos do cuidado interior são os mais doces.",
+      "inspiration": "O universo planta em silêncio o que florescerá no seu tempo."
+    },
+    "Gêmeos": {
+      "text": "A mente dança entre ideias, mas o coração pede uma pausa mais contemplativa. Entre tantas palavras, o silêncio pode ser a resposta. É dia de ouvir mais do que falar — inclusive a si mesmo.",
+      "inspiration": "O vento leva o que é leve, mas guarda no peito o que é verdade."
+    },
+    "Câncer": {
+      "text": "Velhas emoções podem emergir, não para ferir, mas para curar. Olhe com carinho para o que retorna: há uma sabedoria nas memórias que insistem em ficar. Hoje, cuidar de si é um gesto sagrado.",
+      "inspiration": "Quem mergulha em si descobre que até a dor tem marés."
+    },
+    "Leão": {
+      "text": "O brilho que você carrega não precisa ser provado — apenas vivido. Hoje, evite buscar validação fora. O universo lhe convida a reconhecer sua luz com humildade. Há dignidade na autenticidade.",
+      "inspiration": "O sol não precisa de aplausos para nascer — apenas do céu aberto."
+    },
+    "Virgem": {
+      "text": "Seu olhar detalhista é dom, mas hoje talvez seja preciso relaxar o controle. Nem tudo precisa fazer sentido de imediato. Permita-se viver a dúvida como quem rega uma semente ainda invisível.",
+      "inspiration": "A perfeição da vida está justamente nas imperfeições que nos ensinam."
+    },
+    "Libra": {
+      "text": "As relações refletem espelhos que nem sempre gostamos de olhar. Hoje, o céu convida à honestidade suave. Buscar harmonia não é evitar conflitos, mas acolher as verdades com beleza.",
+      "inspiration": "Equilíbrio não é ausência de movimento, mas dança entre extremos."
+    },
+    "Escorpião": {
+      "text": "Há um chamado para desapegar do que pesa. Você não precisa carregar tudo — nem todas as culpas. O renascimento começa quando a alma escolhe soltar.",
+      "inspiration": "Morrer por dentro é às vezes o primeiro passo para renascer com leveza."
+    },
+    "Sagitário": {
+      "text": "O espírito busca horizontes, mas talvez o aprendizado hoje esteja em olhar para dentro. A viagem mais longa pode ser a mais próxima. Fé é o fogo que aquece mesmo quando o mundo esfria.",
+      "inspiration": "As estrelas mais distantes também moram dentro de você."
+    },
+    "Capricórnio": {
+      "text": "A responsabilidade é nobre, mas não se esqueça de que você é mais que suas conquistas. Hoje, permita-se descanso sem culpa. O mundo não desmorona quando você cuida de si.",
+      "inspiration": "A montanha também sonha com o vento leve da madrugada."
+    },
+    "Aquário": {
+      "text": "Ideias novas sopram como brisas de renovação. Mas será que você está ouvindo o chamado? Desafiar padrões é parte da sua essência, mas hoje, talvez o desafio seja acolher também o que é simples.",
+      "inspiration": "A liberdade mais rara é a de ser inteiro — mesmo quando incomum."
+    },
+    "Peixes": {
+      "text": "A sensibilidade pode parecer um fardo, mas é nela que mora sua magia. Intuições surgem com clareza sutil hoje — confie nelas. O invisível também é real quando sentimos com verdade.",
+      "inspiration": "Quem escuta o coração aprende a decifrar os segredos das marés."
+    }
+  },
+  "2025-06-16": {
+    "Áries": {
+      "text": "Hoje, a pressa pode vestir disfarces de urgência, mas o que você realmente precisa talvez seja apenas respirar mais devagar. Há uma força sutil pedindo menos ação e mais percepção. Evite o impulso de resolver tudo com força: há poder também na escuta e na presença.",
+      "inspiration": "Nem toda chama precisa incendiar — algumas iluminam apenas o caminho."
+    },
+    "Touro": {
+      "text": "Há uma ternura silenciosa nos processos lentos. Você está amadurecendo algo por dentro, talvez sem perceber. Confie no tempo, mesmo quando tudo ao redor parecer apressado. Os frutos do cuidado interior são os mais doces.",
+      "inspiration": "O universo planta em silêncio o que florescerá no seu tempo."
+    },
+    "Gêmeos": {
+      "text": "A mente dança entre ideias, mas o coração pede uma pausa mais contemplativa. Entre tantas palavras, o silêncio pode ser a resposta. É dia de ouvir mais do que falar — inclusive a si mesmo.",
+      "inspiration": "O vento leva o que é leve, mas guarda no peito o que é verdade."
+    },
+    "Câncer": {
+      "text": "Velhas emoções podem emergir, não para ferir, mas para curar. Olhe com carinho para o que retorna: há uma sabedoria nas memórias que insistem em ficar. Hoje, cuidar de si é um gesto sagrado.",
+      "inspiration": "Quem mergulha em si descobre que até a dor tem marés."
+    },
+    "Leão": {
+      "text": "O brilho que você carrega não precisa ser provado — apenas vivido. Hoje, evite buscar validação fora. O universo lhe convida a reconhecer sua luz com humildade. Há dignidade na autenticidade.",
+      "inspiration": "O sol não precisa de aplausos para nascer — apenas do céu aberto."
+    },
+    "Virgem": {
+      "text": "Seu olhar detalhista é dom, mas hoje talvez seja preciso relaxar o controle. Nem tudo precisa fazer sentido de imediato. Permita-se viver a dúvida como quem rega uma semente ainda invisível.",
+      "inspiration": "A perfeição da vida está justamente nas imperfeições que nos ensinam."
+    },
+    "Libra": {
+      "text": "As relações refletem espelhos que nem sempre gostamos de olhar. Hoje, o céu convida à honestidade suave. Buscar harmonia não é evitar conflitos, mas acolher as verdades com beleza.",
+      "inspiration": "Equilíbrio não é ausência de movimento, mas dança entre extremos."
+    },
+    "Escorpião": {
+      "text": "Há um chamado para desapegar do que pesa. Você não precisa carregar tudo — nem todas as culpas. O renascimento começa quando a alma escolhe soltar.",
+      "inspiration": "Morrer por dentro é às vezes o primeiro passo para renascer com leveza."
+    },
+    "Sagitário": {
+      "text": "O espírito busca horizontes, mas talvez o aprendizado hoje esteja em olhar para dentro. A viagem mais longa pode ser a mais próxima. Fé é o fogo que aquece mesmo quando o mundo esfria.",
+      "inspiration": "As estrelas mais distantes também moram dentro de você."
+    },
+    "Capricórnio": {
+      "text": "A responsabilidade é nobre, mas não se esqueça de que você é mais que suas conquistas. Hoje, permita-se descanso sem culpa. O mundo não desmorona quando você cuida de si.",
+      "inspiration": "A montanha também sonha com o vento leve da madrugada."
+    },
+    "Aquário": {
+      "text": "Ideias novas sopram como brisas de renovação. Mas será que você está ouvindo o chamado? Desafiar padrões é parte da sua essência, mas hoje, talvez o desafio seja acolher também o que é simples.",
+      "inspiration": "A liberdade mais rara é a de ser inteiro — mesmo quando incomum."
+    },
+    "Peixes": {
+      "text": "A sensibilidade pode parecer um fardo, mas é nela que mora sua magia. Intuições surgem com clareza sutil hoje — confie nelas. O invisível também é real quando sentimos com verdade.",
+      "inspiration": "Quem escuta o coração aprende a decifrar os segredos das marés."
+    }
+  },
+  "2025-06-17": {
+    "Áries": {
+      "text": "Hoje, a pressa pode vestir disfarces de urgência, mas o que você realmente precisa talvez seja apenas respirar mais devagar. Há uma força sutil pedindo menos ação e mais percepção. Evite o impulso de resolver tudo com força: há poder também na escuta e na presença.",
+      "inspiration": "Nem toda chama precisa incendiar — algumas iluminam apenas o caminho."
+    },
+    "Touro": {
+      "text": "Há uma ternura silenciosa nos processos lentos. Você está amadurecendo algo por dentro, talvez sem perceber. Confie no tempo, mesmo quando tudo ao redor parecer apressado. Os frutos do cuidado interior são os mais doces.",
+      "inspiration": "O universo planta em silêncio o que florescerá no seu tempo."
+    },
+    "Gêmeos": {
+      "text": "A mente dança entre ideias, mas o coração pede uma pausa mais contemplativa. Entre tantas palavras, o silêncio pode ser a resposta. É dia de ouvir mais do que falar — inclusive a si mesmo.",
+      "inspiration": "O vento leva o que é leve, mas guarda no peito o que é verdade."
+    },
+    "Câncer": {
+      "text": "Velhas emoções podem emergir, não para ferir, mas para curar. Olhe com carinho para o que retorna: há uma sabedoria nas memórias que insistem em ficar. Hoje, cuidar de si é um gesto sagrado.",
+      "inspiration": "Quem mergulha em si descobre que até a dor tem marés."
+    },
+    "Leão": {
+      "text": "O brilho que você carrega não precisa ser provado — apenas vivido. Hoje, evite buscar validação fora. O universo lhe convida a reconhecer sua luz com humildade. Há dignidade na autenticidade.",
+      "inspiration": "O sol não precisa de aplausos para nascer — apenas do céu aberto."
+    },
+    "Virgem": {
+      "text": "Seu olhar detalhista é dom, mas hoje talvez seja preciso relaxar o controle. Nem tudo precisa fazer sentido de imediato. Permita-se viver a dúvida como quem rega uma semente ainda invisível.",
+      "inspiration": "A perfeição da vida está justamente nas imperfeições que nos ensinam."
+    },
+    "Libra": {
+      "text": "As relações refletem espelhos que nem sempre gostamos de olhar. Hoje, o céu convida à honestidade suave. Buscar harmonia não é evitar conflitos, mas acolher as verdades com beleza.",
+      "inspiration": "Equilíbrio não é ausência de movimento, mas dança entre extremos."
+    },
+    "Escorpião": {
+      "text": "Há um chamado para desapegar do que pesa. Você não precisa carregar tudo — nem todas as culpas. O renascimento começa quando a alma escolhe soltar.",
+      "inspiration": "Morrer por dentro é às vezes o primeiro passo para renascer com leveza."
+    },
+    "Sagitário": {
+      "text": "O espírito busca horizontes, mas talvez o aprendizado hoje esteja em olhar para dentro. A viagem mais longa pode ser a mais próxima. Fé é o fogo que aquece mesmo quando o mundo esfria.",
+      "inspiration": "As estrelas mais distantes também moram dentro de você."
+    },
+    "Capricórnio": {
+      "text": "A responsabilidade é nobre, mas não se esqueça de que você é mais que suas conquistas. Hoje, permita-se descanso sem culpa. O mundo não desmorona quando você cuida de si.",
+      "inspiration": "A montanha também sonha com o vento leve da madrugada."
+    },
+    "Aquário": {
+      "text": "Ideias novas sopram como brisas de renovação. Mas será que você está ouvindo o chamado? Desafiar padrões é parte da sua essência, mas hoje, talvez o desafio seja acolher também o que é simples.",
+      "inspiration": "A liberdade mais rara é a de ser inteiro — mesmo quando incomum."
+    },
+    "Peixes": {
+      "text": "A sensibilidade pode parecer um fardo, mas é nela que mora sua magia. Intuições surgem com clareza sutil hoje — confie nelas. O invisível também é real quando sentimos com verdade.",
+      "inspiration": "Quem escuta o coração aprende a decifrar os segredos das marés."
+    }
+  },
+  "2025-06-18": {
+    "Áries": {
+      "text": "Hoje, a pressa pode vestir disfarces de urgência, mas o que você realmente precisa talvez seja apenas respirar mais devagar. Há uma força sutil pedindo menos ação e mais percepção. Evite o impulso de resolver tudo com força: há poder também na escuta e na presença.",
+      "inspiration": "Nem toda chama precisa incendiar — algumas iluminam apenas o caminho."
+    },
+    "Touro": {
+      "text": "Há uma ternura silenciosa nos processos lentos. Você está amadurecendo algo por dentro, talvez sem perceber. Confie no tempo, mesmo quando tudo ao redor parecer apressado. Os frutos do cuidado interior são os mais doces.",
+      "inspiration": "O universo planta em silêncio o que florescerá no seu tempo."
+    },
+    "Gêmeos": {
+      "text": "A mente dança entre ideias, mas o coração pede uma pausa mais contemplativa. Entre tantas palavras, o silêncio pode ser a resposta. É dia de ouvir mais do que falar — inclusive a si mesmo.",
+      "inspiration": "O vento leva o que é leve, mas guarda no peito o que é verdade."
+    },
+    "Câncer": {
+      "text": "Velhas emoções podem emergir, não para ferir, mas para curar. Olhe com carinho para o que retorna: há uma sabedoria nas memórias que insistem em ficar. Hoje, cuidar de si é um gesto sagrado.",
+      "inspiration": "Quem mergulha em si descobre que até a dor tem marés."
+    },
+    "Leão": {
+      "text": "O brilho que você carrega não precisa ser provado — apenas vivido. Hoje, evite buscar validação fora. O universo lhe convida a reconhecer sua luz com humildade. Há dignidade na autenticidade.",
+      "inspiration": "O sol não precisa de aplausos para nascer — apenas do céu aberto."
+    },
+    "Virgem": {
+      "text": "Seu olhar detalhista é dom, mas hoje talvez seja preciso relaxar o controle. Nem tudo precisa fazer sentido de imediato. Permita-se viver a dúvida como quem rega uma semente ainda invisível.",
+      "inspiration": "A perfeição da vida está justamente nas imperfeições que nos ensinam."
+    },
+    "Libra": {
+      "text": "As relações refletem espelhos que nem sempre gostamos de olhar. Hoje, o céu convida à honestidade suave. Buscar harmonia não é evitar conflitos, mas acolher as verdades com beleza.",
+      "inspiration": "Equilíbrio não é ausência de movimento, mas dança entre extremos."
+    },
+    "Escorpião": {
+      "text": "Há um chamado para desapegar do que pesa. Você não precisa carregar tudo — nem todas as culpas. O renascimento começa quando a alma escolhe soltar.",
+      "inspiration": "Morrer por dentro é às vezes o primeiro passo para renascer com leveza."
+    },
+    "Sagitário": {
+      "text": "O espírito busca horizontes, mas talvez o aprendizado hoje esteja em olhar para dentro. A viagem mais longa pode ser a mais próxima. Fé é o fogo que aquece mesmo quando o mundo esfria.",
+      "inspiration": "As estrelas mais distantes também moram dentro de você."
+    },
+    "Capricórnio": {
+      "text": "A responsabilidade é nobre, mas não se esqueça de que você é mais que suas conquistas. Hoje, permita-se descanso sem culpa. O mundo não desmorona quando você cuida de si.",
+      "inspiration": "A montanha também sonha com o vento leve da madrugada."
+    },
+    "Aquário": {
+      "text": "Ideias novas sopram como brisas de renovação. Mas será que você está ouvindo o chamado? Desafiar padrões é parte da sua essência, mas hoje, talvez o desafio seja acolher também o que é simples.",
+      "inspiration": "A liberdade mais rara é a de ser inteiro — mesmo quando incomum."
+    },
+    "Peixes": {
+      "text": "A sensibilidade pode parecer um fardo, mas é nela que mora sua magia. Intuições surgem com clareza sutil hoje — confie nelas. O invisível também é real quando sentimos com verdade.",
+      "inspiration": "Quem escuta o coração aprende a decifrar os segredos das marés."
+    }
+  },
+  "2025-06-19": {
+    "Áries": {
+      "text": "Hoje, a pressa pode vestir disfarces de urgência, mas o que você realmente precisa talvez seja apenas respirar mais devagar. Há uma força sutil pedindo menos ação e mais percepção. Evite o impulso de resolver tudo com força: há poder também na escuta e na presença.",
+      "inspiration": "Nem toda chama precisa incendiar — algumas iluminam apenas o caminho."
+    },
+    "Touro": {
+      "text": "Há uma ternura silenciosa nos processos lentos. Você está amadurecendo algo por dentro, talvez sem perceber. Confie no tempo, mesmo quando tudo ao redor parecer apressado. Os frutos do cuidado interior são os mais doces.",
+      "inspiration": "O universo planta em silêncio o que florescerá no seu tempo."
+    },
+    "Gêmeos": {
+      "text": "A mente dança entre ideias, mas o coração pede uma pausa mais contemplativa. Entre tantas palavras, o silêncio pode ser a resposta. É dia de ouvir mais do que falar — inclusive a si mesmo.",
+      "inspiration": "O vento leva o que é leve, mas guarda no peito o que é verdade."
+    },
+    "Câncer": {
+      "text": "Velhas emoções podem emergir, não para ferir, mas para curar. Olhe com carinho para o que retorna: há uma sabedoria nas memórias que insistem em ficar. Hoje, cuidar de si é um gesto sagrado.",
+      "inspiration": "Quem mergulha em si descobre que até a dor tem marés."
+    },
+    "Leão": {
+      "text": "O brilho que você carrega não precisa ser provado — apenas vivido. Hoje, evite buscar validação fora. O universo lhe convida a reconhecer sua luz com humildade. Há dignidade na autenticidade.",
+      "inspiration": "O sol não precisa de aplausos para nascer — apenas do céu aberto."
+    },
+    "Virgem": {
+      "text": "Seu olhar detalhista é dom, mas hoje talvez seja preciso relaxar o controle. Nem tudo precisa fazer sentido de imediato. Permita-se viver a dúvida como quem rega uma semente ainda invisível.",
+      "inspiration": "A perfeição da vida está justamente nas imperfeições que nos ensinam."
+    },
+    "Libra": {
+      "text": "As relações refletem espelhos que nem sempre gostamos de olhar. Hoje, o céu convida à honestidade suave. Buscar harmonia não é evitar conflitos, mas acolher as verdades com beleza.",
+      "inspiration": "Equilíbrio não é ausência de movimento, mas dança entre extremos."
+    },
+    "Escorpião": {
+      "text": "Há um chamado para desapegar do que pesa. Você não precisa carregar tudo — nem todas as culpas. O renascimento começa quando a alma escolhe soltar.",
+      "inspiration": "Morrer por dentro é às vezes o primeiro passo para renascer com leveza."
+    },
+    "Sagitário": {
+      "text": "O espírito busca horizontes, mas talvez o aprendizado hoje esteja em olhar para dentro. A viagem mais longa pode ser a mais próxima. Fé é o fogo que aquece mesmo quando o mundo esfria.",
+      "inspiration": "As estrelas mais distantes também moram dentro de você."
+    },
+    "Capricórnio": {
+      "text": "A responsabilidade é nobre, mas não se esqueça de que você é mais que suas conquistas. Hoje, permita-se descanso sem culpa. O mundo não desmorona quando você cuida de si.",
+      "inspiration": "A montanha também sonha com o vento leve da madrugada."
+    },
+    "Aquário": {
+      "text": "Ideias novas sopram como brisas de renovação. Mas será que você está ouvindo o chamado? Desafiar padrões é parte da sua essência, mas hoje, talvez o desafio seja acolher também o que é simples.",
+      "inspiration": "A liberdade mais rara é a de ser inteiro — mesmo quando incomum."
+    },
+    "Peixes": {
+      "text": "A sensibilidade pode parecer um fardo, mas é nela que mora sua magia. Intuições surgem com clareza sutil hoje — confie nelas. O invisível também é real quando sentimos com verdade.",
+      "inspiration": "Quem escuta o coração aprende a decifrar os segredos das marés."
+    }
+  },
+  "2025-06-20": {
+    "Áries": {
+      "text": "Hoje, a pressa pode vestir disfarces de urgência, mas o que você realmente precisa talvez seja apenas respirar mais devagar. Há uma força sutil pedindo menos ação e mais percepção. Evite o impulso de resolver tudo com força: há poder também na escuta e na presença.",
+      "inspiration": "Nem toda chama precisa incendiar — algumas iluminam apenas o caminho."
+    },
+    "Touro": {
+      "text": "Há uma ternura silenciosa nos processos lentos. Você está amadurecendo algo por dentro, talvez sem perceber. Confie no tempo, mesmo quando tudo ao redor parecer apressado. Os frutos do cuidado interior são os mais doces.",
+      "inspiration": "O universo planta em silêncio o que florescerá no seu tempo."
+    },
+    "Gêmeos": {
+      "text": "A mente dança entre ideias, mas o coração pede uma pausa mais contemplativa. Entre tantas palavras, o silêncio pode ser a resposta. É dia de ouvir mais do que falar — inclusive a si mesmo.",
+      "inspiration": "O vento leva o que é leve, mas guarda no peito o que é verdade."
+    },
+    "Câncer": {
+      "text": "Velhas emoções podem emergir, não para ferir, mas para curar. Olhe com carinho para o que retorna: há uma sabedoria nas memórias que insistem em ficar. Hoje, cuidar de si é um gesto sagrado.",
+      "inspiration": "Quem mergulha em si descobre que até a dor tem marés."
+    },
+    "Leão": {
+      "text": "O brilho que você carrega não precisa ser provado — apenas vivido. Hoje, evite buscar validação fora. O universo lhe convida a reconhecer sua luz com humildade. Há dignidade na autenticidade.",
+      "inspiration": "O sol não precisa de aplausos para nascer — apenas do céu aberto."
+    },
+    "Virgem": {
+      "text": "Seu olhar detalhista é dom, mas hoje talvez seja preciso relaxar o controle. Nem tudo precisa fazer sentido de imediato. Permita-se viver a dúvida como quem rega uma semente ainda invisível.",
+      "inspiration": "A perfeição da vida está justamente nas imperfeições que nos ensinam."
+    },
+    "Libra": {
+      "text": "As relações refletem espelhos que nem sempre gostamos de olhar. Hoje, o céu convida à honestidade suave. Buscar harmonia não é evitar conflitos, mas acolher as verdades com beleza.",
+      "inspiration": "Equilíbrio não é ausência de movimento, mas dança entre extremos."
+    },
+    "Escorpião": {
+      "text": "Há um chamado para desapegar do que pesa. Você não precisa carregar tudo — nem todas as culpas. O renascimento começa quando a alma escolhe soltar.",
+      "inspiration": "Morrer por dentro é às vezes o primeiro passo para renascer com leveza."
+    },
+    "Sagitário": {
+      "text": "O espírito busca horizontes, mas talvez o aprendizado hoje esteja em olhar para dentro. A viagem mais longa pode ser a mais próxima. Fé é o fogo que aquece mesmo quando o mundo esfria.",
+      "inspiration": "As estrelas mais distantes também moram dentro de você."
+    },
+    "Capricórnio": {
+      "text": "A responsabilidade é nobre, mas não se esqueça de que você é mais que suas conquistas. Hoje, permita-se descanso sem culpa. O mundo não desmorona quando você cuida de si.",
+      "inspiration": "A montanha também sonha com o vento leve da madrugada."
+    },
+    "Aquário": {
+      "text": "Ideias novas sopram como brisas de renovação. Mas será que você está ouvindo o chamado? Desafiar padrões é parte da sua essência, mas hoje, talvez o desafio seja acolher também o que é simples.",
+      "inspiration": "A liberdade mais rara é a de ser inteiro — mesmo quando incomum."
+    },
+    "Peixes": {
+      "text": "A sensibilidade pode parecer um fardo, mas é nela que mora sua magia. Intuições surgem com clareza sutil hoje — confie nelas. O invisível também é real quando sentimos com verdade.",
+      "inspiration": "Quem escuta o coração aprende a decifrar os segredos das marés."
+    }
+  },
+  "2025-06-21": {
+    "Áries": {
+      "text": "Hoje, a pressa pode vestir disfarces de urgência, mas o que você realmente precisa talvez seja apenas respirar mais devagar. Há uma força sutil pedindo menos ação e mais percepção. Evite o impulso de resolver tudo com força: há poder também na escuta e na presença.",
+      "inspiration": "Nem toda chama precisa incendiar — algumas iluminam apenas o caminho."
+    },
+    "Touro": {
+      "text": "Há uma ternura silenciosa nos processos lentos. Você está amadurecendo algo por dentro, talvez sem perceber. Confie no tempo, mesmo quando tudo ao redor parecer apressado. Os frutos do cuidado interior são os mais doces.",
+      "inspiration": "O universo planta em silêncio o que florescerá no seu tempo."
+    },
+    "Gêmeos": {
+      "text": "A mente dança entre ideias, mas o coração pede uma pausa mais contemplativa. Entre tantas palavras, o silêncio pode ser a resposta. É dia de ouvir mais do que falar — inclusive a si mesmo.",
+      "inspiration": "O vento leva o que é leve, mas guarda no peito o que é verdade."
+    },
+    "Câncer": {
+      "text": "Velhas emoções podem emergir, não para ferir, mas para curar. Olhe com carinho para o que retorna: há uma sabedoria nas memórias que insistem em ficar. Hoje, cuidar de si é um gesto sagrado.",
+      "inspiration": "Quem mergulha em si descobre que até a dor tem marés."
+    },
+    "Leão": {
+      "text": "O brilho que você carrega não precisa ser provado — apenas vivido. Hoje, evite buscar validação fora. O universo lhe convida a reconhecer sua luz com humildade. Há dignidade na autenticidade.",
+      "inspiration": "O sol não precisa de aplausos para nascer — apenas do céu aberto."
+    },
+    "Virgem": {
+      "text": "Seu olhar detalhista é dom, mas hoje talvez seja preciso relaxar o controle. Nem tudo precisa fazer sentido de imediato. Permita-se viver a dúvida como quem rega uma semente ainda invisível.",
+      "inspiration": "A perfeição da vida está justamente nas imperfeições que nos ensinam."
+    },
+    "Libra": {
+      "text": "As relações refletem espelhos que nem sempre gostamos de olhar. Hoje, o céu convida à honestidade suave. Buscar harmonia não é evitar conflitos, mas acolher as verdades com beleza.",
+      "inspiration": "Equilíbrio não é ausência de movimento, mas dança entre extremos."
+    },
+    "Escorpião": {
+      "text": "Há um chamado para desapegar do que pesa. Você não precisa carregar tudo — nem todas as culpas. O renascimento começa quando a alma escolhe soltar.",
+      "inspiration": "Morrer por dentro é às vezes o primeiro passo para renascer com leveza."
+    },
+    "Sagitário": {
+      "text": "O espírito busca horizontes, mas talvez o aprendizado hoje esteja em olhar para dentro. A viagem mais longa pode ser a mais próxima. Fé é o fogo que aquece mesmo quando o mundo esfria.",
+      "inspiration": "As estrelas mais distantes também moram dentro de você."
+    },
+    "Capricórnio": {
+      "text": "A responsabilidade é nobre, mas não se esqueça de que você é mais que suas conquistas. Hoje, permita-se descanso sem culpa. O mundo não desmorona quando você cuida de si.",
+      "inspiration": "A montanha também sonha com o vento leve da madrugada."
+    },
+    "Aquário": {
+      "text": "Ideias novas sopram como brisas de renovação. Mas será que você está ouvindo o chamado? Desafiar padrões é parte da sua essência, mas hoje, talvez o desafio seja acolher também o que é simples.",
+      "inspiration": "A liberdade mais rara é a de ser inteiro — mesmo quando incomum."
+    },
+    "Peixes": {
+      "text": "A sensibilidade pode parecer um fardo, mas é nela que mora sua magia. Intuições surgem com clareza sutil hoje — confie nelas. O invisível também é real quando sentimos com verdade.",
+      "inspiration": "Quem escuta o coração aprende a decifrar os segredos das marés."
+    }
+  },
+  "2025-06-22": {
+    "Áries": {
+      "text": "Hoje, a pressa pode vestir disfarces de urgência, mas o que você realmente precisa talvez seja apenas respirar mais devagar. Há uma força sutil pedindo menos ação e mais percepção. Evite o impulso de resolver tudo com força: há poder também na escuta e na presença.",
+      "inspiration": "Nem toda chama precisa incendiar — algumas iluminam apenas o caminho."
+    },
+    "Touro": {
+      "text": "Há uma ternura silenciosa nos processos lentos. Você está amadurecendo algo por dentro, talvez sem perceber. Confie no tempo, mesmo quando tudo ao redor parecer apressado. Os frutos do cuidado interior são os mais doces.",
+      "inspiration": "O universo planta em silêncio o que florescerá no seu tempo."
+    },
+    "Gêmeos": {
+      "text": "A mente dança entre ideias, mas o coração pede uma pausa mais contemplativa. Entre tantas palavras, o silêncio pode ser a resposta. É dia de ouvir mais do que falar — inclusive a si mesmo.",
+      "inspiration": "O vento leva o que é leve, mas guarda no peito o que é verdade."
+    },
+    "Câncer": {
+      "text": "Velhas emoções podem emergir, não para ferir, mas para curar. Olhe com carinho para o que retorna: há uma sabedoria nas memórias que insistem em ficar. Hoje, cuidar de si é um gesto sagrado.",
+      "inspiration": "Quem mergulha em si descobre que até a dor tem marés."
+    },
+    "Leão": {
+      "text": "O brilho que você carrega não precisa ser provado — apenas vivido. Hoje, evite buscar validação fora. O universo lhe convida a reconhecer sua luz com humildade. Há dignidade na autenticidade.",
+      "inspiration": "O sol não precisa de aplausos para nascer — apenas do céu aberto."
+    },
+    "Virgem": {
+      "text": "Seu olhar detalhista é dom, mas hoje talvez seja preciso relaxar o controle. Nem tudo precisa fazer sentido de imediato. Permita-se viver a dúvida como quem rega uma semente ainda invisível.",
+      "inspiration": "A perfeição da vida está justamente nas imperfeições que nos ensinam."
+    },
+    "Libra": {
+      "text": "As relações refletem espelhos que nem sempre gostamos de olhar. Hoje, o céu convida à honestidade suave. Buscar harmonia não é evitar conflitos, mas acolher as verdades com beleza.",
+      "inspiration": "Equilíbrio não é ausência de movimento, mas dança entre extremos."
+    },
+    "Escorpião": {
+      "text": "Há um chamado para desapegar do que pesa. Você não precisa carregar tudo — nem todas as culpas. O renascimento começa quando a alma escolhe soltar.",
+      "inspiration": "Morrer por dentro é às vezes o primeiro passo para renascer com leveza."
+    },
+    "Sagitário": {
+      "text": "O espírito busca horizontes, mas talvez o aprendizado hoje esteja em olhar para dentro. A viagem mais longa pode ser a mais próxima. Fé é o fogo que aquece mesmo quando o mundo esfria.",
+      "inspiration": "As estrelas mais distantes também moram dentro de você."
+    },
+    "Capricórnio": {
+      "text": "A responsabilidade é nobre, mas não se esqueça de que você é mais que suas conquistas. Hoje, permita-se descanso sem culpa. O mundo não desmorona quando você cuida de si.",
+      "inspiration": "A montanha também sonha com o vento leve da madrugada."
+    },
+    "Aquário": {
+      "text": "Ideias novas sopram como brisas de renovação. Mas será que você está ouvindo o chamado? Desafiar padrões é parte da sua essência, mas hoje, talvez o desafio seja acolher também o que é simples.",
+      "inspiration": "A liberdade mais rara é a de ser inteiro — mesmo quando incomum."
+    },
+    "Peixes": {
+      "text": "A sensibilidade pode parecer um fardo, mas é nela que mora sua magia. Intuições surgem com clareza sutil hoje — confie nelas. O invisível também é real quando sentimos com verdade.",
+      "inspiration": "Quem escuta o coração aprende a decifrar os segredos das marés."
+    }
+  },
+  "2025-06-23": {
+    "Áries": {
+      "text": "Hoje, a pressa pode vestir disfarces de urgência, mas o que você realmente precisa talvez seja apenas respirar mais devagar. Há uma força sutil pedindo menos ação e mais percepção. Evite o impulso de resolver tudo com força: há poder também na escuta e na presença.",
+      "inspiration": "Nem toda chama precisa incendiar — algumas iluminam apenas o caminho."
+    },
+    "Touro": {
+      "text": "Há uma ternura silenciosa nos processos lentos. Você está amadurecendo algo por dentro, talvez sem perceber. Confie no tempo, mesmo quando tudo ao redor parecer apressado. Os frutos do cuidado interior são os mais doces.",
+      "inspiration": "O universo planta em silêncio o que florescerá no seu tempo."
+    },
+    "Gêmeos": {
+      "text": "A mente dança entre ideias, mas o coração pede uma pausa mais contemplativa. Entre tantas palavras, o silêncio pode ser a resposta. É dia de ouvir mais do que falar — inclusive a si mesmo.",
+      "inspiration": "O vento leva o que é leve, mas guarda no peito o que é verdade."
+    },
+    "Câncer": {
+      "text": "Velhas emoções podem emergir, não para ferir, mas para curar. Olhe com carinho para o que retorna: há uma sabedoria nas memórias que insistem em ficar. Hoje, cuidar de si é um gesto sagrado.",
+      "inspiration": "Quem mergulha em si descobre que até a dor tem marés."
+    },
+    "Leão": {
+      "text": "O brilho que você carrega não precisa ser provado — apenas vivido. Hoje, evite buscar validação fora. O universo lhe convida a reconhecer sua luz com humildade. Há dignidade na autenticidade.",
+      "inspiration": "O sol não precisa de aplausos para nascer — apenas do céu aberto."
+    },
+    "Virgem": {
+      "text": "Seu olhar detalhista é dom, mas hoje talvez seja preciso relaxar o controle. Nem tudo precisa fazer sentido de imediato. Permita-se viver a dúvida como quem rega uma semente ainda invisível.",
+      "inspiration": "A perfeição da vida está justamente nas imperfeições que nos ensinam."
+    },
+    "Libra": {
+      "text": "As relações refletem espelhos que nem sempre gostamos de olhar. Hoje, o céu convida à honestidade suave. Buscar harmonia não é evitar conflitos, mas acolher as verdades com beleza.",
+      "inspiration": "Equilíbrio não é ausência de movimento, mas dança entre extremos."
+    },
+    "Escorpião": {
+      "text": "Há um chamado para desapegar do que pesa. Você não precisa carregar tudo — nem todas as culpas. O renascimento começa quando a alma escolhe soltar.",
+      "inspiration": "Morrer por dentro é às vezes o primeiro passo para renascer com leveza."
+    },
+    "Sagitário": {
+      "text": "O espírito busca horizontes, mas talvez o aprendizado hoje esteja em olhar para dentro. A viagem mais longa pode ser a mais próxima. Fé é o fogo que aquece mesmo quando o mundo esfria.",
+      "inspiration": "As estrelas mais distantes também moram dentro de você."
+    },
+    "Capricórnio": {
+      "text": "A responsabilidade é nobre, mas não se esqueça de que você é mais que suas conquistas. Hoje, permita-se descanso sem culpa. O mundo não desmorona quando você cuida de si.",
+      "inspiration": "A montanha também sonha com o vento leve da madrugada."
+    },
+    "Aquário": {
+      "text": "Ideias novas sopram como brisas de renovação. Mas será que você está ouvindo o chamado? Desafiar padrões é parte da sua essência, mas hoje, talvez o desafio seja acolher também o que é simples.",
+      "inspiration": "A liberdade mais rara é a de ser inteiro — mesmo quando incomum."
+    },
+    "Peixes": {
+      "text": "A sensibilidade pode parecer um fardo, mas é nela que mora sua magia. Intuições surgem com clareza sutil hoje — confie nelas. O invisível também é real quando sentimos com verdade.",
+      "inspiration": "Quem escuta o coração aprende a decifrar os segredos das marés."
+    }
+  },
+  "2025-06-24": {
+    "Áries": {
+      "text": "Hoje, a pressa pode vestir disfarces de urgência, mas o que você realmente precisa talvez seja apenas respirar mais devagar. Há uma força sutil pedindo menos ação e mais percepção. Evite o impulso de resolver tudo com força: há poder também na escuta e na presença.",
+      "inspiration": "Nem toda chama precisa incendiar — algumas iluminam apenas o caminho."
+    },
+    "Touro": {
+      "text": "Há uma ternura silenciosa nos processos lentos. Você está amadurecendo algo por dentro, talvez sem perceber. Confie no tempo, mesmo quando tudo ao redor parecer apressado. Os frutos do cuidado interior são os mais doces.",
+      "inspiration": "O universo planta em silêncio o que florescerá no seu tempo."
+    },
+    "Gêmeos": {
+      "text": "A mente dança entre ideias, mas o coração pede uma pausa mais contemplativa. Entre tantas palavras, o silêncio pode ser a resposta. É dia de ouvir mais do que falar — inclusive a si mesmo.",
+      "inspiration": "O vento leva o que é leve, mas guarda no peito o que é verdade."
+    },
+    "Câncer": {
+      "text": "Velhas emoções podem emergir, não para ferir, mas para curar. Olhe com carinho para o que retorna: há uma sabedoria nas memórias que insistem em ficar. Hoje, cuidar de si é um gesto sagrado.",
+      "inspiration": "Quem mergulha em si descobre que até a dor tem marés."
+    },
+    "Leão": {
+      "text": "O brilho que você carrega não precisa ser provado — apenas vivido. Hoje, evite buscar validação fora. O universo lhe convida a reconhecer sua luz com humildade. Há dignidade na autenticidade.",
+      "inspiration": "O sol não precisa de aplausos para nascer — apenas do céu aberto."
+    },
+    "Virgem": {
+      "text": "Seu olhar detalhista é dom, mas hoje talvez seja preciso relaxar o controle. Nem tudo precisa fazer sentido de imediato. Permita-se viver a dúvida como quem rega uma semente ainda invisível.",
+      "inspiration": "A perfeição da vida está justamente nas imperfeições que nos ensinam."
+    },
+    "Libra": {
+      "text": "As relações refletem espelhos que nem sempre gostamos de olhar. Hoje, o céu convida à honestidade suave. Buscar harmonia não é evitar conflitos, mas acolher as verdades com beleza.",
+      "inspiration": "Equilíbrio não é ausência de movimento, mas dança entre extremos."
+    },
+    "Escorpião": {
+      "text": "Há um chamado para desapegar do que pesa. Você não precisa carregar tudo — nem todas as culpas. O renascimento começa quando a alma escolhe soltar.",
+      "inspiration": "Morrer por dentro é às vezes o primeiro passo para renascer com leveza."
+    },
+    "Sagitário": {
+      "text": "O espírito busca horizontes, mas talvez o aprendizado hoje esteja em olhar para dentro. A viagem mais longa pode ser a mais próxima. Fé é o fogo que aquece mesmo quando o mundo esfria.",
+      "inspiration": "As estrelas mais distantes também moram dentro de você."
+    },
+    "Capricórnio": {
+      "text": "A responsabilidade é nobre, mas não se esqueça de que você é mais que suas conquistas. Hoje, permita-se descanso sem culpa. O mundo não desmorona quando você cuida de si.",
+      "inspiration": "A montanha também sonha com o vento leve da madrugada."
+    },
+    "Aquário": {
+      "text": "Ideias novas sopram como brisas de renovação. Mas será que você está ouvindo o chamado? Desafiar padrões é parte da sua essência, mas hoje, talvez o desafio seja acolher também o que é simples.",
+      "inspiration": "A liberdade mais rara é a de ser inteiro — mesmo quando incomum."
+    },
+    "Peixes": {
+      "text": "A sensibilidade pode parecer um fardo, mas é nela que mora sua magia. Intuições surgem com clareza sutil hoje — confie nelas. O invisível também é real quando sentimos com verdade.",
+      "inspiration": "Quem escuta o coração aprende a decifrar os segredos das marés."
+    }
+  },
+  "2025-06-25": {
+    "Áries": {
+      "text": "Hoje, a pressa pode vestir disfarces de urgência, mas o que você realmente precisa talvez seja apenas respirar mais devagar. Há uma força sutil pedindo menos ação e mais percepção. Evite o impulso de resolver tudo com força: há poder também na escuta e na presença.",
+      "inspiration": "Nem toda chama precisa incendiar — algumas iluminam apenas o caminho."
+    },
+    "Touro": {
+      "text": "Há uma ternura silenciosa nos processos lentos. Você está amadurecendo algo por dentro, talvez sem perceber. Confie no tempo, mesmo quando tudo ao redor parecer apressado. Os frutos do cuidado interior são os mais doces.",
+      "inspiration": "O universo planta em silêncio o que florescerá no seu tempo."
+    },
+    "Gêmeos": {
+      "text": "A mente dança entre ideias, mas o coração pede uma pausa mais contemplativa. Entre tantas palavras, o silêncio pode ser a resposta. É dia de ouvir mais do que falar — inclusive a si mesmo.",
+      "inspiration": "O vento leva o que é leve, mas guarda no peito o que é verdade."
+    },
+    "Câncer": {
+      "text": "Velhas emoções podem emergir, não para ferir, mas para curar. Olhe com carinho para o que retorna: há uma sabedoria nas memórias que insistem em ficar. Hoje, cuidar de si é um gesto sagrado.",
+      "inspiration": "Quem mergulha em si descobre que até a dor tem marés."
+    },
+    "Leão": {
+      "text": "O brilho que você carrega não precisa ser provado — apenas vivido. Hoje, evite buscar validação fora. O universo lhe convida a reconhecer sua luz com humildade. Há dignidade na autenticidade.",
+      "inspiration": "O sol não precisa de aplausos para nascer — apenas do céu aberto."
+    },
+    "Virgem": {
+      "text": "Seu olhar detalhista é dom, mas hoje talvez seja preciso relaxar o controle. Nem tudo precisa fazer sentido de imediato. Permita-se viver a dúvida como quem rega uma semente ainda invisível.",
+      "inspiration": "A perfeição da vida está justamente nas imperfeições que nos ensinam."
+    },
+    "Libra": {
+      "text": "As relações refletem espelhos que nem sempre gostamos de olhar. Hoje, o céu convida à honestidade suave. Buscar harmonia não é evitar conflitos, mas acolher as verdades com beleza.",
+      "inspiration": "Equilíbrio não é ausência de movimento, mas dança entre extremos."
+    },
+    "Escorpião": {
+      "text": "Há um chamado para desapegar do que pesa. Você não precisa carregar tudo — nem todas as culpas. O renascimento começa quando a alma escolhe soltar.",
+      "inspiration": "Morrer por dentro é às vezes o primeiro passo para renascer com leveza."
+    },
+    "Sagitário": {
+      "text": "O espírito busca horizontes, mas talvez o aprendizado hoje esteja em olhar para dentro. A viagem mais longa pode ser a mais próxima. Fé é o fogo que aquece mesmo quando o mundo esfria.",
+      "inspiration": "As estrelas mais distantes também moram dentro de você."
+    },
+    "Capricórnio": {
+      "text": "A responsabilidade é nobre, mas não se esqueça de que você é mais que suas conquistas. Hoje, permita-se descanso sem culpa. O mundo não desmorona quando você cuida de si.",
+      "inspiration": "A montanha também sonha com o vento leve da madrugada."
+    },
+    "Aquário": {
+      "text": "Ideias novas sopram como brisas de renovação. Mas será que você está ouvindo o chamado? Desafiar padrões é parte da sua essência, mas hoje, talvez o desafio seja acolher também o que é simples.",
+      "inspiration": "A liberdade mais rara é a de ser inteiro — mesmo quando incomum."
+    },
+    "Peixes": {
+      "text": "A sensibilidade pode parecer um fardo, mas é nela que mora sua magia. Intuições surgem com clareza sutil hoje — confie nelas. O invisível também é real quando sentimos com verdade.",
+      "inspiration": "Quem escuta o coração aprende a decifrar os segredos das marés."
+    }
+  },
+  "2025-06-26": {
+    "Áries": {
+      "text": "Hoje, a pressa pode vestir disfarces de urgência, mas o que você realmente precisa talvez seja apenas respirar mais devagar. Há uma força sutil pedindo menos ação e mais percepção. Evite o impulso de resolver tudo com força: há poder também na escuta e na presença.",
+      "inspiration": "Nem toda chama precisa incendiar — algumas iluminam apenas o caminho."
+    },
+    "Touro": {
+      "text": "Há uma ternura silenciosa nos processos lentos. Você está amadurecendo algo por dentro, talvez sem perceber. Confie no tempo, mesmo quando tudo ao redor parecer apressado. Os frutos do cuidado interior são os mais doces.",
+      "inspiration": "O universo planta em silêncio o que florescerá no seu tempo."
+    },
+    "Gêmeos": {
+      "text": "A mente dança entre ideias, mas o coração pede uma pausa mais contemplativa. Entre tantas palavras, o silêncio pode ser a resposta. É dia de ouvir mais do que falar — inclusive a si mesmo.",
+      "inspiration": "O vento leva o que é leve, mas guarda no peito o que é verdade."
+    },
+    "Câncer": {
+      "text": "Velhas emoções podem emergir, não para ferir, mas para curar. Olhe com carinho para o que retorna: há uma sabedoria nas memórias que insistem em ficar. Hoje, cuidar de si é um gesto sagrado.",
+      "inspiration": "Quem mergulha em si descobre que até a dor tem marés."
+    },
+    "Leão": {
+      "text": "O brilho que você carrega não precisa ser provado — apenas vivido. Hoje, evite buscar validação fora. O universo lhe convida a reconhecer sua luz com humildade. Há dignidade na autenticidade.",
+      "inspiration": "O sol não precisa de aplausos para nascer — apenas do céu aberto."
+    },
+    "Virgem": {
+      "text": "Seu olhar detalhista é dom, mas hoje talvez seja preciso relaxar o controle. Nem tudo precisa fazer sentido de imediato. Permita-se viver a dúvida como quem rega uma semente ainda invisível.",
+      "inspiration": "A perfeição da vida está justamente nas imperfeições que nos ensinam."
+    },
+    "Libra": {
+      "text": "As relações refletem espelhos que nem sempre gostamos de olhar. Hoje, o céu convida à honestidade suave. Buscar harmonia não é evitar conflitos, mas acolher as verdades com beleza.",
+      "inspiration": "Equilíbrio não é ausência de movimento, mas dança entre extremos."
+    },
+    "Escorpião": {
+      "text": "Há um chamado para desapegar do que pesa. Você não precisa carregar tudo — nem todas as culpas. O renascimento começa quando a alma escolhe soltar.",
+      "inspiration": "Morrer por dentro é às vezes o primeiro passo para renascer com leveza."
+    },
+    "Sagitário": {
+      "text": "O espírito busca horizontes, mas talvez o aprendizado hoje esteja em olhar para dentro. A viagem mais longa pode ser a mais próxima. Fé é o fogo que aquece mesmo quando o mundo esfria.",
+      "inspiration": "As estrelas mais distantes também moram dentro de você."
+    },
+    "Capricórnio": {
+      "text": "A responsabilidade é nobre, mas não se esqueça de que você é mais que suas conquistas. Hoje, permita-se descanso sem culpa. O mundo não desmorona quando você cuida de si.",
+      "inspiration": "A montanha também sonha com o vento leve da madrugada."
+    },
+    "Aquário": {
+      "text": "Ideias novas sopram como brisas de renovação. Mas será que você está ouvindo o chamado? Desafiar padrões é parte da sua essência, mas hoje, talvez o desafio seja acolher também o que é simples.",
+      "inspiration": "A liberdade mais rara é a de ser inteiro — mesmo quando incomum."
+    },
+    "Peixes": {
+      "text": "A sensibilidade pode parecer um fardo, mas é nela que mora sua magia. Intuições surgem com clareza sutil hoje — confie nelas. O invisível também é real quando sentimos com verdade.",
+      "inspiration": "Quem escuta o coração aprende a decifrar os segredos das marés."
+    }
+  },
+  "2025-06-27": {
+    "Áries": {
+      "text": "Hoje, a pressa pode vestir disfarces de urgência, mas o que você realmente precisa talvez seja apenas respirar mais devagar. Há uma força sutil pedindo menos ação e mais percepção. Evite o impulso de resolver tudo com força: há poder também na escuta e na presença.",
+      "inspiration": "Nem toda chama precisa incendiar — algumas iluminam apenas o caminho."
+    },
+    "Touro": {
+      "text": "Há uma ternura silenciosa nos processos lentos. Você está amadurecendo algo por dentro, talvez sem perceber. Confie no tempo, mesmo quando tudo ao redor parecer apressado. Os frutos do cuidado interior são os mais doces.",
+      "inspiration": "O universo planta em silêncio o que florescerá no seu tempo."
+    },
+    "Gêmeos": {
+      "text": "A mente dança entre ideias, mas o coração pede uma pausa mais contemplativa. Entre tantas palavras, o silêncio pode ser a resposta. É dia de ouvir mais do que falar — inclusive a si mesmo.",
+      "inspiration": "O vento leva o que é leve, mas guarda no peito o que é verdade."
+    },
+    "Câncer": {
+      "text": "Velhas emoções podem emergir, não para ferir, mas para curar. Olhe com carinho para o que retorna: há uma sabedoria nas memórias que insistem em ficar. Hoje, cuidar de si é um gesto sagrado.",
+      "inspiration": "Quem mergulha em si descobre que até a dor tem marés."
+    },
+    "Leão": {
+      "text": "O brilho que você carrega não precisa ser provado — apenas vivido. Hoje, evite buscar validação fora. O universo lhe convida a reconhecer sua luz com humildade. Há dignidade na autenticidade.",
+      "inspiration": "O sol não precisa de aplausos para nascer — apenas do céu aberto."
+    },
+    "Virgem": {
+      "text": "Seu olhar detalhista é dom, mas hoje talvez seja preciso relaxar o controle. Nem tudo precisa fazer sentido de imediato. Permita-se viver a dúvida como quem rega uma semente ainda invisível.",
+      "inspiration": "A perfeição da vida está justamente nas imperfeições que nos ensinam."
+    },
+    "Libra": {
+      "text": "As relações refletem espelhos que nem sempre gostamos de olhar. Hoje, o céu convida à honestidade suave. Buscar harmonia não é evitar conflitos, mas acolher as verdades com beleza.",
+      "inspiration": "Equilíbrio não é ausência de movimento, mas dança entre extremos."
+    },
+    "Escorpião": {
+      "text": "Há um chamado para desapegar do que pesa. Você não precisa carregar tudo — nem todas as culpas. O renascimento começa quando a alma escolhe soltar.",
+      "inspiration": "Morrer por dentro é às vezes o primeiro passo para renascer com leveza."
+    },
+    "Sagitário": {
+      "text": "O espírito busca horizontes, mas talvez o aprendizado hoje esteja em olhar para dentro. A viagem mais longa pode ser a mais próxima. Fé é o fogo que aquece mesmo quando o mundo esfria.",
+      "inspiration": "As estrelas mais distantes também moram dentro de você."
+    },
+    "Capricórnio": {
+      "text": "A responsabilidade é nobre, mas não se esqueça de que você é mais que suas conquistas. Hoje, permita-se descanso sem culpa. O mundo não desmorona quando você cuida de si.",
+      "inspiration": "A montanha também sonha com o vento leve da madrugada."
+    },
+    "Aquário": {
+      "text": "Ideias novas sopram como brisas de renovação. Mas será que você está ouvindo o chamado? Desafiar padrões é parte da sua essência, mas hoje, talvez o desafio seja acolher também o que é simples.",
+      "inspiration": "A liberdade mais rara é a de ser inteiro — mesmo quando incomum."
+    },
+    "Peixes": {
+      "text": "A sensibilidade pode parecer um fardo, mas é nela que mora sua magia. Intuições surgem com clareza sutil hoje — confie nelas. O invisível também é real quando sentimos com verdade.",
+      "inspiration": "Quem escuta o coração aprende a decifrar os segredos das marés."
+    }
+  },
+  "2025-06-28": {
+    "Áries": {
+      "text": "Hoje, a pressa pode vestir disfarces de urgência, mas o que você realmente precisa talvez seja apenas respirar mais devagar. Há uma força sutil pedindo menos ação e mais percepção. Evite o impulso de resolver tudo com força: há poder também na escuta e na presença.",
+      "inspiration": "Nem toda chama precisa incendiar — algumas iluminam apenas o caminho."
+    },
+    "Touro": {
+      "text": "Há uma ternura silenciosa nos processos lentos. Você está amadurecendo algo por dentro, talvez sem perceber. Confie no tempo, mesmo quando tudo ao redor parecer apressado. Os frutos do cuidado interior são os mais doces.",
+      "inspiration": "O universo planta em silêncio o que florescerá no seu tempo."
+    },
+    "Gêmeos": {
+      "text": "A mente dança entre ideias, mas o coração pede uma pausa mais contemplativa. Entre tantas palavras, o silêncio pode ser a resposta. É dia de ouvir mais do que falar — inclusive a si mesmo.",
+      "inspiration": "O vento leva o que é leve, mas guarda no peito o que é verdade."
+    },
+    "Câncer": {
+      "text": "Velhas emoções podem emergir, não para ferir, mas para curar. Olhe com carinho para o que retorna: há uma sabedoria nas memórias que insistem em ficar. Hoje, cuidar de si é um gesto sagrado.",
+      "inspiration": "Quem mergulha em si descobre que até a dor tem marés."
+    },
+    "Leão": {
+      "text": "O brilho que você carrega não precisa ser provado — apenas vivido. Hoje, evite buscar validação fora. O universo lhe convida a reconhecer sua luz com humildade. Há dignidade na autenticidade.",
+      "inspiration": "O sol não precisa de aplausos para nascer — apenas do céu aberto."
+    },
+    "Virgem": {
+      "text": "Seu olhar detalhista é dom, mas hoje talvez seja preciso relaxar o controle. Nem tudo precisa fazer sentido de imediato. Permita-se viver a dúvida como quem rega uma semente ainda invisível.",
+      "inspiration": "A perfeição da vida está justamente nas imperfeições que nos ensinam."
+    },
+    "Libra": {
+      "text": "As relações refletem espelhos que nem sempre gostamos de olhar. Hoje, o céu convida à honestidade suave. Buscar harmonia não é evitar conflitos, mas acolher as verdades com beleza.",
+      "inspiration": "Equilíbrio não é ausência de movimento, mas dança entre extremos."
+    },
+    "Escorpião": {
+      "text": "Há um chamado para desapegar do que pesa. Você não precisa carregar tudo — nem todas as culpas. O renascimento começa quando a alma escolhe soltar.",
+      "inspiration": "Morrer por dentro é às vezes o primeiro passo para renascer com leveza."
+    },
+    "Sagitário": {
+      "text": "O espírito busca horizontes, mas talvez o aprendizado hoje esteja em olhar para dentro. A viagem mais longa pode ser a mais próxima. Fé é o fogo que aquece mesmo quando o mundo esfria.",
+      "inspiration": "As estrelas mais distantes também moram dentro de você."
+    },
+    "Capricórnio": {
+      "text": "A responsabilidade é nobre, mas não se esqueça de que você é mais que suas conquistas. Hoje, permita-se descanso sem culpa. O mundo não desmorona quando você cuida de si.",
+      "inspiration": "A montanha também sonha com o vento leve da madrugada."
+    },
+    "Aquário": {
+      "text": "Ideias novas sopram como brisas de renovação. Mas será que você está ouvindo o chamado? Desafiar padrões é parte da sua essência, mas hoje, talvez o desafio seja acolher também o que é simples.",
+      "inspiration": "A liberdade mais rara é a de ser inteiro — mesmo quando incomum."
+    },
+    "Peixes": {
+      "text": "A sensibilidade pode parecer um fardo, mas é nela que mora sua magia. Intuições surgem com clareza sutil hoje — confie nelas. O invisível também é real quando sentimos com verdade.",
+      "inspiration": "Quem escuta o coração aprende a decifrar os segredos das marés."
+    }
+  },
+  "2025-06-29": {
+    "Áries": {
+      "text": "Hoje, a pressa pode vestir disfarces de urgência, mas o que você realmente precisa talvez seja apenas respirar mais devagar. Há uma força sutil pedindo menos ação e mais percepção. Evite o impulso de resolver tudo com força: há poder também na escuta e na presença.",
+      "inspiration": "Nem toda chama precisa incendiar — algumas iluminam apenas o caminho."
+    },
+    "Touro": {
+      "text": "Há uma ternura silenciosa nos processos lentos. Você está amadurecendo algo por dentro, talvez sem perceber. Confie no tempo, mesmo quando tudo ao redor parecer apressado. Os frutos do cuidado interior são os mais doces.",
+      "inspiration": "O universo planta em silêncio o que florescerá no seu tempo."
+    },
+    "Gêmeos": {
+      "text": "A mente dança entre ideias, mas o coração pede uma pausa mais contemplativa. Entre tantas palavras, o silêncio pode ser a resposta. É dia de ouvir mais do que falar — inclusive a si mesmo.",
+      "inspiration": "O vento leva o que é leve, mas guarda no peito o que é verdade."
+    },
+    "Câncer": {
+      "text": "Velhas emoções podem emergir, não para ferir, mas para curar. Olhe com carinho para o que retorna: há uma sabedoria nas memórias que insistem em ficar. Hoje, cuidar de si é um gesto sagrado.",
+      "inspiration": "Quem mergulha em si descobre que até a dor tem marés."
+    },
+    "Leão": {
+      "text": "O brilho que você carrega não precisa ser provado — apenas vivido. Hoje, evite buscar validação fora. O universo lhe convida a reconhecer sua luz com humildade. Há dignidade na autenticidade.",
+      "inspiration": "O sol não precisa de aplausos para nascer — apenas do céu aberto."
+    },
+    "Virgem": {
+      "text": "Seu olhar detalhista é dom, mas hoje talvez seja preciso relaxar o controle. Nem tudo precisa fazer sentido de imediato. Permita-se viver a dúvida como quem rega uma semente ainda invisível.",
+      "inspiration": "A perfeição da vida está justamente nas imperfeições que nos ensinam."
+    },
+    "Libra": {
+      "text": "As relações refletem espelhos que nem sempre gostamos de olhar. Hoje, o céu convida à honestidade suave. Buscar harmonia não é evitar conflitos, mas acolher as verdades com beleza.",
+      "inspiration": "Equilíbrio não é ausência de movimento, mas dança entre extremos."
+    },
+    "Escorpião": {
+      "text": "Há um chamado para desapegar do que pesa. Você não precisa carregar tudo — nem todas as culpas. O renascimento começa quando a alma escolhe soltar.",
+      "inspiration": "Morrer por dentro é às vezes o primeiro passo para renascer com leveza."
+    },
+    "Sagitário": {
+      "text": "O espírito busca horizontes, mas talvez o aprendizado hoje esteja em olhar para dentro. A viagem mais longa pode ser a mais próxima. Fé é o fogo que aquece mesmo quando o mundo esfria.",
+      "inspiration": "As estrelas mais distantes também moram dentro de você."
+    },
+    "Capricórnio": {
+      "text": "A responsabilidade é nobre, mas não se esqueça de que você é mais que suas conquistas. Hoje, permita-se descanso sem culpa. O mundo não desmorona quando você cuida de si.",
+      "inspiration": "A montanha também sonha com o vento leve da madrugada."
+    },
+    "Aquário": {
+      "text": "Ideias novas sopram como brisas de renovação. Mas será que você está ouvindo o chamado? Desafiar padrões é parte da sua essência, mas hoje, talvez o desafio seja acolher também o que é simples.",
+      "inspiration": "A liberdade mais rara é a de ser inteiro — mesmo quando incomum."
+    },
+    "Peixes": {
+      "text": "A sensibilidade pode parecer um fardo, mas é nela que mora sua magia. Intuições surgem com clareza sutil hoje — confie nelas. O invisível também é real quando sentimos com verdade.",
+      "inspiration": "Quem escuta o coração aprende a decifrar os segredos das marés."
+    }
+  },
+  "2025-06-30": {
+    "Áries": {
+      "text": "Hoje, a pressa pode vestir disfarces de urgência, mas o que você realmente precisa talvez seja apenas respirar mais devagar. Há uma força sutil pedindo menos ação e mais percepção. Evite o impulso de resolver tudo com força: há poder também na escuta e na presença.",
+      "inspiration": "Nem toda chama precisa incendiar — algumas iluminam apenas o caminho."
+    },
+    "Touro": {
+      "text": "Há uma ternura silenciosa nos processos lentos. Você está amadurecendo algo por dentro, talvez sem perceber. Confie no tempo, mesmo quando tudo ao redor parecer apressado. Os frutos do cuidado interior são os mais doces.",
+      "inspiration": "O universo planta em silêncio o que florescerá no seu tempo."
+    },
+    "Gêmeos": {
+      "text": "A mente dança entre ideias, mas o coração pede uma pausa mais contemplativa. Entre tantas palavras, o silêncio pode ser a resposta. É dia de ouvir mais do que falar — inclusive a si mesmo.",
+      "inspiration": "O vento leva o que é leve, mas guarda no peito o que é verdade."
+    },
+    "Câncer": {
+      "text": "Velhas emoções podem emergir, não para ferir, mas para curar. Olhe com carinho para o que retorna: há uma sabedoria nas memórias que insistem em ficar. Hoje, cuidar de si é um gesto sagrado.",
+      "inspiration": "Quem mergulha em si descobre que até a dor tem marés."
+    },
+    "Leão": {
+      "text": "O brilho que você carrega não precisa ser provado — apenas vivido. Hoje, evite buscar validação fora. O universo lhe convida a reconhecer sua luz com humildade. Há dignidade na autenticidade.",
+      "inspiration": "O sol não precisa de aplausos para nascer — apenas do céu aberto."
+    },
+    "Virgem": {
+      "text": "Seu olhar detalhista é dom, mas hoje talvez seja preciso relaxar o controle. Nem tudo precisa fazer sentido de imediato. Permita-se viver a dúvida como quem rega uma semente ainda invisível.",
+      "inspiration": "A perfeição da vida está justamente nas imperfeições que nos ensinam."
+    },
+    "Libra": {
+      "text": "As relações refletem espelhos que nem sempre gostamos de olhar. Hoje, o céu convida à honestidade suave. Buscar harmonia não é evitar conflitos, mas acolher as verdades com beleza.",
+      "inspiration": "Equilíbrio não é ausência de movimento, mas dança entre extremos."
+    },
+    "Escorpião": {
+      "text": "Há um chamado para desapegar do que pesa. Você não precisa carregar tudo — nem todas as culpas. O renascimento começa quando a alma escolhe soltar.",
+      "inspiration": "Morrer por dentro é às vezes o primeiro passo para renascer com leveza."
+    },
+    "Sagitário": {
+      "text": "O espírito busca horizontes, mas talvez o aprendizado hoje esteja em olhar para dentro. A viagem mais longa pode ser a mais próxima. Fé é o fogo que aquece mesmo quando o mundo esfria.",
+      "inspiration": "As estrelas mais distantes também moram dentro de você."
+    },
+    "Capricórnio": {
+      "text": "A responsabilidade é nobre, mas não se esqueça de que você é mais que suas conquistas. Hoje, permita-se descanso sem culpa. O mundo não desmorona quando você cuida de si.",
+      "inspiration": "A montanha também sonha com o vento leve da madrugada."
+    },
+    "Aquário": {
+      "text": "Ideias novas sopram como brisas de renovação. Mas será que você está ouvindo o chamado? Desafiar padrões é parte da sua essência, mas hoje, talvez o desafio seja acolher também o que é simples.",
+      "inspiration": "A liberdade mais rara é a de ser inteiro — mesmo quando incomum."
+    },
+    "Peixes": {
+      "text": "A sensibilidade pode parecer um fardo, mas é nela que mora sua magia. Intuições surgem com clareza sutil hoje — confie nelas. O invisível também é real quando sentimos com verdade.",
+      "inspiration": "Quem escuta o coração aprende a decifrar os segredos das marés."
+    }
+  }
+}
