@@ -1,6 +1,8 @@
 import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart' show rootBundle;
+import 'package:flutter_svg/flutter_svg.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 void main() {
   runApp(const MyApp());
@@ -30,37 +32,23 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  final List<String> signos = [
-    'Áries',
-    'Touro',
-    'Gêmeos',
-    'Câncer',
-    'Leão',
-    'Virgem',
-    'Libra',
-    'Escorpião',
-    'Sagitário',
-    'Capricórnio',
-    'Aquário',
-    'Peixes',
+  int selectedMenu = 0; // 0: Hoje, 1: Ontem, 2: Semana
+  final List<Map<String, dynamic>> signos = [
+    {"nome": "Áries", "icone": "assets/icons/aries.svg"},
+    {"nome": "Touro", "icone": "assets/icons/touro.svg"},
+    {"nome": "Gêmeos", "icone": "assets/icons/gemeos.svg"},
+    {"nome": "Câncer", "icone": "assets/icons/cancer.svg"},
+    {"nome": "Leão", "icone": "assets/icons/leao.svg"},
+    {"nome": "Virgem", "icone": "assets/icons/virgem.svg"},
+    {"nome": "Libra", "icone": "assets/icons/libra.svg"},
+    {"nome": "Escorpião", "icone": "assets/icons/escorpiao.svg"},
+    {"nome": "Sagitário", "icone": "assets/icons/sagitario.svg"},
+    {"nome": "Capricórnio", "icone": "assets/icons/capricornio.svg"},
+    {"nome": "Aquário", "icone": "assets/icons/aquario.svg"},
+    {"nome": "Peixes", "icone": "assets/icons/peixes.svg"},
   ];
   String? signoSelecionado;
   String? resultado;
-
-  final Map<String, String> backgrounds = {
-    'Áries': 'assets/bg_aries.png',
-    'Touro': 'assets/bg_touro.png',
-    'Gêmeos': 'assets/bg_gemeos.png',
-    'Câncer': 'assets/bg_cancer.png',
-    'Leão': 'assets/bg_leao.png',
-    'Virgem': 'assets/bg_virgem.png',
-    'Libra': 'assets/bg_libra.png',
-    'Escorpião': 'assets/bg_escorpiao.png',
-    'Sagitário': 'assets/bg_sagitario.png',
-    'Capricórnio': 'assets/bg_capricornio.png',
-    'Aquário': 'assets/bg_aquario.png',
-    'Peixes': 'assets/bg_peixes.png',
-  };
 
   Future<void> buscarHoroscopo() async {
     if (signoSelecionado == null) {
@@ -124,104 +112,601 @@ class _MyHomePageState extends State<MyHomePage> {
 
   @override
   Widget build(BuildContext context) {
-    String? bgPath =
-        backgrounds[signoSelecionado ?? ''] ?? 'assets/bg_default.png';
-
-    // Se não houver bg para o signo, usa o default
-    if (signoSelecionado == null ||
-        !backgrounds.containsKey(signoSelecionado)) {
-      bgPath = 'assets/bg_default.png';
-    }
-
     return Scaffold(
-      appBar: AppBar(
-        backgroundColor: Theme.of(context).colorScheme.inversePrimary,
-        title: Text(widget.title),
-      ),
+      backgroundColor: Colors.transparent,
       body: Container(
-        decoration: BoxDecoration(
-          image: DecorationImage(image: AssetImage(bgPath), fit: BoxFit.cover),
-        ),
-        child: Center(
-          child: SingleChildScrollView(
-            child: Column(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: <Widget>[
-                const SizedBox(height: 10),
-                // Mostra o resultado acima do seletor
-                if (resultado != null)
-                  Padding(
-                    padding: const EdgeInsets.all(16.0),
-                    child: Container(
-                      decoration: BoxDecoration(
-                        // ignore: deprecated_member_use
-                        color: Colors.black.withOpacity(
-                          0.5,
-                        ), // Fundo cinza escuro transparente
-                        borderRadius: BorderRadius.circular(12),
-                      ),
-                      padding: const EdgeInsets.all(16),
-                      child: Text(
-                        resultado!,
-                        style: const TextStyle(
-                          fontSize: 22,
-                          fontWeight: FontWeight.bold,
-                          color: Colors.white,
-                        ),
-                        textAlign: TextAlign.center,
-                      ),
-                    ),
-                  ),
-                const SizedBox(
-                  height: 24,
-                ), // Espaço extra entre resposta e seletor
-                // const Text('Selecione seu signo:'),
-                Container(
-                  padding: const EdgeInsets.symmetric(horizontal: 12),
-                  decoration: BoxDecoration(
-                    color: Colors.white,
-                    borderRadius: BorderRadius.circular(8),
-                    border: Border.all(color: Colors.deepPurple, width: 1),
-                  ),
-                  child: DropdownButton<String>(
-                    value: signoSelecionado,
-                    hint: const Text('Escolha um signo'),
-                    items:
-                        signos.map((String signo) {
-                          return DropdownMenuItem<String>(
-                            value: signo,
-                            child: Text(signo),
-                          );
-                        }).toList(),
-                    onChanged: (String? novoValor) {
-                      setState(() {
-                        signoSelecionado = novoValor;
-                        resultado =
-                            null; // Limpa o texto da tela ao trocar de signo
-                      });
-                    },
-                    underline: const SizedBox(),
-                    dropdownColor: Colors.white,
-                  ),
-                ),
-                const SizedBox(height: 20),
-                ElevatedButton(
-                  style: ElevatedButton.styleFrom(
-                    backgroundColor: Colors.white,
-                    foregroundColor: Colors.deepPurple,
-                    elevation: 4,
-                    shape: RoundedRectangleBorder(
-                      borderRadius: BorderRadius.circular(8),
-                    ),
-                  ),
-                  onPressed: buscarHoroscopo,
-                  child: const Text('Buscar'),
-                ),
-                const SizedBox(height: 30),
-              ],
-            ),
+        decoration: const BoxDecoration(
+          gradient: LinearGradient(
+            colors: [Color(0xFF7B1FA2), Color(0xFF512DA8)],
+            begin: Alignment.topLeft,
+            end: Alignment.bottomRight,
           ),
         ),
+        child: SafeArea(
+          // <-- Adicione este widget aqui
+          child: GridView.count(
+            crossAxisCount: 3,
+            childAspectRatio: 0.75,
+            padding: EdgeInsets.zero,
+            mainAxisSpacing: 0,
+            crossAxisSpacing: 0,
+            children: List.generate(signos.length, (index) {
+              final signo = signos[index];
+              final int row = index ~/ 3;
+              final int col = index % 3;
+              final Color bgColor =
+                  ((row + col) % 2 == 0)
+                      ? const Color(0xFF7C3AAD)
+                      : const Color(0xFF6D299C);
+
+              final now = DateTime.now();
+              final meses = [
+                'Jan',
+                'Fev',
+                'Mar',
+                'Abr',
+                'Mai',
+                'Jun',
+                'Jul',
+                'Ago',
+                'Set',
+                'Out',
+                'Nov',
+                'Dez',
+              ];
+              final dataFormatada =
+                  '${now.day.toString().padLeft(2, '0')} ${meses[now.month - 1]}-${now.year.toString().substring(2)}';
+
+              return GestureDetector(
+                onTap: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (_) => SignoPage(signo: signo)),
+                  );
+                },
+                child: Container(
+                  decoration: BoxDecoration(
+                    color: bgColor,
+                    border: Border.all(color: Colors.transparent),
+                  ),
+                  child: Column(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      Text(
+                        dataFormatada,
+                        style: const TextStyle(
+                          color: Colors.white,
+                          fontWeight: FontWeight.bold,
+                          fontSize: 14,
+                        ),
+                      ),
+                      const SizedBox(height: 6),
+                      SvgPicture.asset(
+                        signo["icone"],
+                        width: 88,
+                        height: 88,
+                        colorFilter: const ColorFilter.mode(
+                          Colors.white,
+                          BlendMode.srcIn,
+                        ),
+                      ),
+                      const SizedBox(height: 6),
+                      Text(
+                        signo["nome"],
+                        style: const TextStyle(
+                          color: Colors.white,
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+              );
+            }),
+          ),
+        ),
+      ),
+    );
+  }
+}
+
+class SignoPage extends StatefulWidget {
+  final Map<String, dynamic> signo;
+  const SignoPage({super.key, required this.signo});
+
+  @override
+  State<SignoPage> createState() => _SignoPageState();
+}
+
+class _SignoPageState extends State<SignoPage> {
+  int selectedMenu = 0;
+  final ScrollController _scrollController = ScrollController();
+  final GlobalKey _trabalhoKey = GlobalKey();
+  final GlobalKey _amorKey = GlobalKey();
+  final GlobalKey _compatKey = GlobalKey();
+
+  void _scrollTo(GlobalKey key) {
+    final ctx = key.currentContext;
+    if (ctx != null) {
+      Scrollable.ensureVisible(
+        ctx,
+        duration: const Duration(milliseconds: 500),
+        curve: Curves.easeInOut,
+      );
+    }
+  }
+
+  @override
+  void dispose() {
+    _scrollController.dispose();
+    super.dispose();
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      backgroundColor: Colors.transparent,
+      body: Container(
+        decoration: const BoxDecoration(
+          gradient: LinearGradient(
+            colors: [Color(0xFF7B1FA2), Color(0xFF512DA8)],
+            begin: Alignment.topLeft,
+            end: Alignment.bottomRight,
+          ),
+        ),
+        child: SafeArea(
+          child: Column(
+            children: [
+              const SizedBox(height: 32),
+              // Menu fixo com 6 ícones
+              Container(
+                height: 50,
+                padding: const EdgeInsets.symmetric(horizontal: 10),
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: [
+                    GestureDetector(
+                      onTap: () {
+                        Navigator.of(context).pushAndRemoveUntil(
+                          MaterialPageRoute(
+                            builder: (_) => const MyHomePage(title: 'Horóscopo do Dia'),
+                          ),
+                          (route) => false,
+                        );
+                      },
+                      child: SvgPicture.asset(
+                        widget.signo["icone"],
+                        width: 55,
+                        height: 55,
+                        colorFilter: const ColorFilter.mode(
+                          Colors.white,
+                          BlendMode.srcIn,
+                        ),
+                      ),
+                    ),
+                    Icon(Icons.calendar_today, color: Colors.white, size: 45),
+                    IconButton(
+                      icon: const Icon(
+                        Icons.nightlight_round,
+                        color: Colors.white,
+                        size: 45,
+                      ),
+                      onPressed: () {
+                        _scrollController.animateTo(
+                          0,
+                          duration: const Duration(milliseconds: 500),
+                          curve: Curves.easeInOut,
+                        );
+                      },
+                    ),
+                    IconButton(
+                      icon: const Icon(
+                        Icons.work,
+                        color: Colors.white,
+                        size: 45,
+                      ),
+                      onPressed: () => _scrollTo(_trabalhoKey),
+                    ),
+                    IconButton(
+                      icon: const Icon(
+                        Icons.favorite,
+                        color: Colors.white,
+                        size: 45,
+                      ),
+                      onPressed: () => _scrollTo(_amorKey),
+                    ),
+                    IconButton(
+                      icon: const Icon(
+                        Icons.style,
+                        color: Colors.white,
+                        size: 45,
+                      ),
+                      onPressed: () => _scrollTo(_compatKey),
+                    ),
+                  ],
+                ),
+              ),
+              const SizedBox(height: 8),
+              // Menu fixo com 3 ícones
+              Padding(
+                padding: const EdgeInsets.symmetric(vertical: 12.0),
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                  children: [
+                    _MenuButton(
+                      text: "Hoje",
+                      selected: selectedMenu == 0,
+                      onTap: () => setState(() => selectedMenu = 0),
+                    ),
+                    _MenuButton(
+                      text: "Ontem",
+                      selected: selectedMenu == 1,
+                      onTap: () => setState(() => selectedMenu = 1),
+                    ),
+                    _MenuButton(
+                      text: "Semana",
+                      selected: selectedMenu == 2,
+                      onTap: () => setState(() => selectedMenu = 2),
+                    ),
+                  ],
+                ),
+              ),
+              // Conteúdo rolável
+              Expanded(
+                child: SingleChildScrollView(
+                  controller: _scrollController,
+                  child: Padding(
+                    padding: const EdgeInsets.symmetric(
+                      horizontal: 24.0,
+                      vertical: 8,
+                    ),
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        // Ícone e nome do signo + botão compartilhar
+                        Row(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            SvgPicture.asset(
+                              widget.signo["icone"],
+                              width: 72,
+                              height: 72,
+                              colorFilter: const ColorFilter.mode(
+                                Colors.white,
+                                BlendMode.srcIn,
+                              ),
+                            ),
+                            const SizedBox(width: 16),
+                            Expanded(
+                              child: Column(
+                                crossAxisAlignment: CrossAxisAlignment.start,
+                                children: [
+                                  Text(
+                                    widget.signo["nome"],
+                                    style: const TextStyle(
+                                      color: Colors.white,
+                                      fontWeight: FontWeight.bold,
+                                      fontSize: 28,
+                                    ),
+                                  ),
+                                  const SizedBox(height: 8),
+                                  GestureDetector(
+                                    onTap: () async {
+                                      final text = Uri.encodeComponent(
+                                        "Confira meu horóscopo no Voz dos Astros!",
+                                      );
+                                      final url = "https://wa.me/?text=$text";
+                                      if (await canLaunchUrl(Uri.parse(url))) {
+                                        await launchUrl(
+                                          Uri.parse(url),
+                                          mode: LaunchMode.externalApplication,
+                                        );
+                                      } else {
+                                        ScaffoldMessenger.of(
+                                          context,
+                                        ).showSnackBar(
+                                          const SnackBar(
+                                            content: Text(
+                                              'Não foi possível abrir o WhatsApp.',
+                                            ),
+                                          ),
+                                        );
+                                      }
+                                    },
+                                    child: const Text(
+                                      "Compartilhar com amigos",
+                                      style: TextStyle(
+                                        color: Colors.white,
+                                        decoration: TextDecoration.underline,
+                                        decorationColor: Colors.white,
+                                        decorationThickness: 2,
+                                        decorationStyle:
+                                            TextDecorationStyle.solid,
+                                        fontSize: 15,
+                                        fontWeight: FontWeight.w500,
+                                      ),
+                                      textAlign: TextAlign.left,
+                                    ),
+                                  ),
+                                ],
+                              ),
+                            ),
+                          ],
+                        ),
+                        const SizedBox(height: 24),
+                        // SESSÃO TRABALHO
+                        Row(
+                          key: _trabalhoKey,
+                          children: [
+                            Icon(Icons.work, color: Colors.white, size: 28),
+                            const SizedBox(width: 8),
+                            const Text(
+                              "TRABALHO",
+                              style: TextStyle(
+                                color: Colors.white,
+                                fontWeight: FontWeight.bold,
+                                fontSize: 20,
+                              ),
+                            ),
+                          ],
+                        ),
+                        const SizedBox(height: 8),
+                        const Text(
+                          "Aqui vai o texto sobre trabalho para este signo. Pode ser dinâmico ou fixo.Aqui vai o texto sobre trabalho para este signo. Pode ser dinâmico ou fixo.Aqui vai o texto sobre trabalho para este signo. Pode ser dinâmico ou fixo.Aqui vai o texto sobre trabalho para este signo. Pode ser dinâmico ou fixo.Aqui vai o texto sobre trabalho para este signo. Pode ser dinâmico ou fixo.Aqui vai o texto sobre trabalho para este signo. Pode ser dinâmico ou fixo.Aqui vai o texto sobre trabalho para este signo. Pode ser dinâmico ou fixo.Aqui vai o texto sobre trabalho para este signo. Pode ser dinâmico ou fixo.Aqui vai o texto sobre trabalho para este signo. Pode ser dinâmico ou fixo.Aqui vai o texto sobre trabalho para este signo. Pode ser dinâmico ou fixo.Aqui vai o texto sobre trabalho para este signo. Pode ser dinâmico ou fixo.Aqui vai o texto sobre trabalho para este signo. Pode ser dinâmico ou fixo.Aqui vai o texto sobre trabalho para este signo. Pode ser dinâmico ou fixo.Aqui vai o texto sobre trabalho para este signo. Pode ser dinâmico ou fixo.Aqui vai o texto sobre trabalho para este signo. Pode ser dinâmico ou fixo.Aqui vai o texto sobre trabalho para este signo. Pode ser dinâmico ou fixo.Aqui vai o texto sobre trabalho para este signo. Pode ser dinâmico ou fixo.",
+                          style: TextStyle(color: Colors.white, fontSize: 16),
+                        ),
+                        const SizedBox(height: 24),
+                        // SESSÃO AMOR
+                        Row(
+                          key: _amorKey,
+                          children: [
+                            Icon(Icons.favorite, color: Colors.white, size: 28),
+                            const SizedBox(width: 12),
+                            const Text(
+                              "AMOR",
+                              style: TextStyle(
+                                color: Colors.white,
+                                fontWeight: FontWeight.bold,
+                                fontSize: 20,
+                              ),
+                            ),
+                          ],
+                        ),
+                        const SizedBox(height: 12),
+                        const Text(
+                          "Aqui vai o texto sobre trabalho para este signo. Pode ser dinâmico ou fixo.Aqui vai o texto sobre trabalho para este signo. Pode ser dinâmico ou fixo.Aqui vai o texto sobre trabalho para este signo. Pode ser dinâmico ou fixo.Aqui vai o texto sobre trabalho para este signo. Pode ser dinâmico ou fixo.Aqui vai o texto sobre trabalho para este signo. Pode ser dinâmico ou fixo.Aqui vai o texto sobre trabalho para este signo. Pode ser dinâmico ou fixo.Aqui vai o texto sobre trabalho para este signo. Pode ser dinâmico ou fixo.Aqui vai o texto sobre trabalho para este signo. Pode ser dinâmico ou fixo.Aqui vai o texto sobre trabalho para este signo. Pode ser dinâmico ou fixo.Aqui vai o texto sobre trabalho para este signo. Pode ser dinâmico ou fixo.Aqui vai o texto sobre trabalho para este signo. Pode ser dinâmico ou fixo.Aqui vai o texto sobre trabalho para este signo. Pode ser dinâmico ou fixo.Aqui vai o texto sobre trabalho para este signo. Pode ser dinâmico ou fixo.Aqui vai o texto sobre trabalho para este signo. Pode ser dinâmico ou fixo.Aqui vai o texto sobre trabalho para este signo. Pode ser dinâmico ou fixo.Aqui vai o texto sobre trabalho para este signo. Pode ser dinâmico ou fixo.",
+                          style: TextStyle(color: Colors.white, fontSize: 16),
+                        ),
+                        const SizedBox(height: 32),
+                        // SESSÃO COMPATÍVEL E NÃO COMPATÍVEL
+                        Container(
+                          key: _compatKey,
+                          margin: const EdgeInsets.symmetric(vertical: 8),
+                          padding: const EdgeInsets.symmetric(
+                            vertical: 16,
+                            horizontal: 12,
+                          ),
+                          decoration: BoxDecoration(
+                            borderRadius: BorderRadius.circular(18),
+                          ),
+                          child: Column(
+                            children: [
+                              Container(
+                                padding: const EdgeInsets.symmetric(
+                                  vertical: 6,
+                                  horizontal: 18,
+                                ),
+                                decoration: BoxDecoration(
+                                  color: const Color(0xFFB9F6CA),
+                                  borderRadius: BorderRadius.circular(12),
+                                ),
+                                child: const Text(
+                                  "Compatível",
+                                  style: TextStyle(
+                                    color: Colors.green,
+                                    fontWeight: FontWeight.bold,
+                                    fontSize: 20,
+                                  ),
+                                  textAlign: TextAlign.center,
+                                ),
+                              ),
+                              const SizedBox(height: 18),
+                              Row(
+                                children: [
+                                  Expanded(
+                                    child: _SignoCompatWidget(
+                                      nome: "Áries",
+                                      icone: "assets/icons/aries.svg",
+                                      iconSize: 88, // igual à primeira página
+                                      fontSize: 16,
+                                    ),
+                                  ),
+                                  Expanded(
+                                    child: _SignoCompatWidget(
+                                      nome: "Leão",
+                                      icone: "assets/icons/leao.svg",
+                                      iconSize: 88,
+                                      fontSize: 16,
+                                    ),
+                                  ),
+                                  Expanded(
+                                    child: _SignoCompatWidget(
+                                      nome: "Sagitário",
+                                      icone: "assets/icons/sagitario.svg",
+                                      iconSize: 88,
+                                      fontSize: 16,
+                                    ),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                        ),
+                        Container(
+                          margin: const EdgeInsets.symmetric(vertical: 8),
+                          padding: const EdgeInsets.symmetric(
+                            vertical: 16,
+                            horizontal: 12,
+                          ),
+                          decoration: BoxDecoration(
+                            borderRadius: BorderRadius.circular(18),
+                          ),
+                          child: Column(
+                            children: [
+                              Container(
+                                padding: const EdgeInsets.symmetric(
+                                  vertical: 6,
+                                  horizontal: 18,
+                                ),
+                                decoration: BoxDecoration(
+                                  color: const Color(0xFFE0E0E0),
+                                  borderRadius: BorderRadius.circular(12),
+                                ),
+                                child: const Text(
+                                  "Não compatível",
+                                  style: TextStyle(
+                                    color: Colors.black87,
+                                    fontWeight: FontWeight.bold,
+                                    fontSize: 18,
+                                  ),
+                                  textAlign: TextAlign.center,
+                                ),
+                              ),
+                              const SizedBox(height: 18),
+                              Row(
+                                children: [
+                                  Expanded(
+                                    child: _SignoCompatWidget(
+                                      nome: "Touro",
+                                      icone: "assets/icons/touro.svg",
+                                      iconSize: 88,
+                                      fontSize: 16,
+                                    ),
+                                  ),
+                                  Expanded(
+                                    child: _SignoCompatWidget(
+                                      nome: "Virgem",
+                                      icone: "assets/icons/virgem.svg",
+                                      iconSize: 88,
+                                      fontSize: 16,
+                                    ),
+                                  ),
+                                  Expanded(
+                                    child: _SignoCompatWidget(
+                                      nome: "Capricórnio",
+                                      icone: "assets/icons/capricornio.svg",
+                                      iconSize: 88,
+                                      fontSize: 16,
+                                    ),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
+                ),
+              ),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+}
+
+// Widget para o menu superior
+class _MenuButton extends StatelessWidget {
+  final String text;
+  final bool selected;
+  final VoidCallback onTap;
+  const _MenuButton({
+    required this.text,
+    required this.selected,
+    required this.onTap,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return Expanded(
+      child: GestureDetector(
+        onTap: onTap,
+        child: Container(
+          color: Colors.white,
+          padding: const EdgeInsets.symmetric(vertical: 12),
+          child: Column(
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              Text(
+                text,
+                textAlign: TextAlign.center,
+                style: TextStyle(
+                  color: selected ? Colors.blue : Colors.deepPurple,
+                  fontWeight: FontWeight.bold,
+                  fontSize: 16,
+                ),
+              ),
+              const SizedBox(height: 4),
+              Container(
+                height: 3,
+                width: 32,
+                decoration: BoxDecoration(
+                  color: selected ? Colors.blue : Colors.transparent,
+                  borderRadius: BorderRadius.circular(2),
+                ),
+              ),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+}
+
+// Widget para signos compatíveis
+class _SignoCompatWidget extends StatelessWidget {
+  final String nome;
+  final String icone;
+  final double iconSize;
+  final double fontSize;
+  const _SignoCompatWidget({
+    required this.nome,
+    required this.icone,
+    this.iconSize = 40,
+    this.fontSize = 16,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return GestureDetector(
+      onTap: () {
+        Navigator.push(
+          context,
+          MaterialPageRoute(
+            builder: (_) => SignoPage(signo: {"nome": nome, "icone": icone}),
+          ),
+        );
+      },
+      child: Column(
+        children: [
+          SvgPicture.asset(
+            icone,
+            width: iconSize,
+            height: iconSize,
+            colorFilter: const ColorFilter.mode(Colors.white, BlendMode.srcIn),
+          ),
+          const SizedBox(height: 4),
+          Text(
+            nome,
+            style: TextStyle(
+              color: Colors.white,
+              fontWeight: FontWeight.bold,
+              fontSize: fontSize,
+            ),
+          ),
+        ],
       ),
     );
   }
