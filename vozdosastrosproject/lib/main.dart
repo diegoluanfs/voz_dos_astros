@@ -225,6 +225,10 @@ class _SignoPageState extends State<SignoPage> {
   final GlobalKey _amorKey = GlobalKey();
   final GlobalKey _compatKey = GlobalKey();
 
+  Map<String, dynamic>? dadosSignoHoje;
+  List<String> compativeis = [];
+  List<String> naoCompativeis = [];
+
   void _scrollTo(GlobalKey key) {
     final ctx = key.currentContext;
     if (ctx != null) {
@@ -233,6 +237,48 @@ class _SignoPageState extends State<SignoPage> {
         duration: const Duration(milliseconds: 500),
         curve: Curves.easeInOut,
       );
+    }
+  }
+
+  @override
+  void initState() {
+    super.initState();
+    carregarHoroscopo();
+  }
+
+  Future<void> carregarHoroscopo() async {
+    final agora = DateTime.now();
+    final ano = agora.year;
+    final mes = agora.month;
+    final dia = agora.day;
+
+    String nomeArquivo = '';
+    if (mes == 5) {
+      nomeArquivo = 'assets/horoscopos_maio_$ano.json';
+    } else if (mes == 6) {
+      nomeArquivo = 'assets/horoscopos_junho_$ano.json';
+    } // adicione outros meses se necessário
+
+    try {
+      String jsonString = await rootBundle.loadString(nomeArquivo);
+      Map<String, dynamic> jsonData = json.decode(jsonString);
+
+      String dataChave =
+          '$ano-${mes.toString().padLeft(2, '0')}-${dia.toString().padLeft(2, '0')}';
+      String nomeSigno = widget.signo["nome"];
+
+      if (jsonData.containsKey(dataChave) &&
+          jsonData[dataChave].containsKey(nomeSigno)) {
+        setState(() {
+          dadosSignoHoje = jsonData[dataChave][nomeSigno];
+          compativeis = List<String>.from(dadosSignoHoje?["compativel"] ?? []);
+          naoCompativeis = List<String>.from(
+            dadosSignoHoje?["n-compativel"] ?? [],
+          );
+        });
+      }
+    } catch (e) {
+      // Trate erro se necessário
     }
   }
 
@@ -269,13 +315,15 @@ class _SignoPageState extends State<SignoPage> {
                       onTap: () {
                         Navigator.of(context).pushAndRemoveUntil(
                           MaterialPageRoute(
-                            builder: (_) => const MyHomePage(title: 'Horóscopo do Dia'),
+                            builder:
+                                (_) =>
+                                    const MyHomePage(title: 'Horóscopo do Dia'),
                           ),
                           (route) => false,
                         );
                       },
                       child: SvgPicture.asset(
-                        widget.signo["icone"],
+                        "assets/icons/zodiac.svg",
                         width: 55,
                         height: 55,
                         colorFilter: const ColorFilter.mode(
@@ -284,7 +332,34 @@ class _SignoPageState extends State<SignoPage> {
                         ),
                       ),
                     ),
-                    Icon(Icons.calendar_today, color: Colors.white, size: 45),
+                    Stack(
+                      alignment: Alignment.center,
+                      children: [
+                        Icon(
+                          Icons.calendar_today,
+                          color: Colors.white,
+                          size: 45,
+                        ),
+                        Positioned(
+                          bottom: 8,
+                          child: Container(
+                            padding: const EdgeInsets.symmetric(horizontal: 4),
+                            decoration: BoxDecoration(
+                              color: Colors.deepPurple,
+                              borderRadius: BorderRadius.circular(6),
+                            ),
+                            child: Text(
+                              '${DateTime.now().day}',
+                              style: const TextStyle(
+                                color: Colors.white,
+                                fontWeight: FontWeight.bold,
+                                fontSize: 16,
+                              ),
+                            ),
+                          ),
+                        ),
+                      ],
+                    ),
                     IconButton(
                       icon: const Icon(
                         Icons.nightlight_round,
@@ -341,12 +416,12 @@ class _SignoPageState extends State<SignoPage> {
                     _MenuButton(
                       text: "Ontem",
                       selected: selectedMenu == 1,
-                      onTap: () => setState(() => selectedMenu = 1),
+                      onTap: null, // Desabilitado
                     ),
                     _MenuButton(
                       text: "Semana",
                       selected: selectedMenu == 2,
-                      onTap: () => setState(() => selectedMenu = 2),
+                      onTap: null, // Desabilitado
                     ),
                   ],
                 ),
@@ -451,9 +526,12 @@ class _SignoPageState extends State<SignoPage> {
                           ],
                         ),
                         const SizedBox(height: 8),
-                        const Text(
-                          "Aqui vai o texto sobre trabalho para este signo. Pode ser dinâmico ou fixo.Aqui vai o texto sobre trabalho para este signo. Pode ser dinâmico ou fixo.Aqui vai o texto sobre trabalho para este signo. Pode ser dinâmico ou fixo.Aqui vai o texto sobre trabalho para este signo. Pode ser dinâmico ou fixo.Aqui vai o texto sobre trabalho para este signo. Pode ser dinâmico ou fixo.Aqui vai o texto sobre trabalho para este signo. Pode ser dinâmico ou fixo.Aqui vai o texto sobre trabalho para este signo. Pode ser dinâmico ou fixo.Aqui vai o texto sobre trabalho para este signo. Pode ser dinâmico ou fixo.Aqui vai o texto sobre trabalho para este signo. Pode ser dinâmico ou fixo.Aqui vai o texto sobre trabalho para este signo. Pode ser dinâmico ou fixo.Aqui vai o texto sobre trabalho para este signo. Pode ser dinâmico ou fixo.Aqui vai o texto sobre trabalho para este signo. Pode ser dinâmico ou fixo.Aqui vai o texto sobre trabalho para este signo. Pode ser dinâmico ou fixo.Aqui vai o texto sobre trabalho para este signo. Pode ser dinâmico ou fixo.Aqui vai o texto sobre trabalho para este signo. Pode ser dinâmico ou fixo.Aqui vai o texto sobre trabalho para este signo. Pode ser dinâmico ou fixo.Aqui vai o texto sobre trabalho para este signo. Pode ser dinâmico ou fixo.",
-                          style: TextStyle(color: Colors.white, fontSize: 16),
+                        Text(
+                          dadosSignoHoje?["trabalho"] ?? "Carregando...",
+                          style: const TextStyle(
+                            color: Colors.white,
+                            fontSize: 16,
+                          ),
                         ),
                         const SizedBox(height: 24),
                         // SESSÃO AMOR
@@ -473,9 +551,12 @@ class _SignoPageState extends State<SignoPage> {
                           ],
                         ),
                         const SizedBox(height: 12),
-                        const Text(
-                          "Aqui vai o texto sobre trabalho para este signo. Pode ser dinâmico ou fixo.Aqui vai o texto sobre trabalho para este signo. Pode ser dinâmico ou fixo.Aqui vai o texto sobre trabalho para este signo. Pode ser dinâmico ou fixo.Aqui vai o texto sobre trabalho para este signo. Pode ser dinâmico ou fixo.Aqui vai o texto sobre trabalho para este signo. Pode ser dinâmico ou fixo.Aqui vai o texto sobre trabalho para este signo. Pode ser dinâmico ou fixo.Aqui vai o texto sobre trabalho para este signo. Pode ser dinâmico ou fixo.Aqui vai o texto sobre trabalho para este signo. Pode ser dinâmico ou fixo.Aqui vai o texto sobre trabalho para este signo. Pode ser dinâmico ou fixo.Aqui vai o texto sobre trabalho para este signo. Pode ser dinâmico ou fixo.Aqui vai o texto sobre trabalho para este signo. Pode ser dinâmico ou fixo.Aqui vai o texto sobre trabalho para este signo. Pode ser dinâmico ou fixo.Aqui vai o texto sobre trabalho para este signo. Pode ser dinâmico ou fixo.Aqui vai o texto sobre trabalho para este signo. Pode ser dinâmico ou fixo.Aqui vai o texto sobre trabalho para este signo. Pode ser dinâmico ou fixo.Aqui vai o texto sobre trabalho para este signo. Pode ser dinâmico ou fixo.",
-                          style: TextStyle(color: Colors.white, fontSize: 16),
+                        Text(
+                          dadosSignoHoje?["amor"] ?? "Carregando...",
+                          style: const TextStyle(
+                            color: Colors.white,
+                            fontSize: 16,
+                          ),
                         ),
                         const SizedBox(height: 32),
                         // SESSÃO COMPATÍVEL E NÃO COMPATÍVEL
@@ -512,32 +593,20 @@ class _SignoPageState extends State<SignoPage> {
                               ),
                               const SizedBox(height: 18),
                               Row(
-                                children: [
-                                  Expanded(
-                                    child: _SignoCompatWidget(
-                                      nome: "Áries",
-                                      icone: "assets/icons/aries.svg",
-                                      iconSize: 88, // igual à primeira página
-                                      fontSize: 16,
-                                    ),
-                                  ),
-                                  Expanded(
-                                    child: _SignoCompatWidget(
-                                      nome: "Leão",
-                                      icone: "assets/icons/leao.svg",
-                                      iconSize: 88,
-                                      fontSize: 16,
-                                    ),
-                                  ),
-                                  Expanded(
-                                    child: _SignoCompatWidget(
-                                      nome: "Sagitário",
-                                      icone: "assets/icons/sagitario.svg",
-                                      iconSize: 88,
-                                      fontSize: 16,
-                                    ),
-                                  ),
-                                ],
+                                children:
+                                    compativeis
+                                        .map(
+                                          (nome) => Expanded(
+                                            child: _SignoCompatWidget(
+                                              nome: nome,
+                                              icone:
+                                                  "assets/icons/${nome.toLowerCase().replaceAll('ç', 'c').replaceAll('ã', 'a').replaceAll('á', 'a').replaceAll('é', 'e').replaceAll('í', 'i').replaceAll('ó', 'o').replaceAll('ú', 'u').replaceAll('ô', 'o').replaceAll('ê', 'e').replaceAll(' ', '').replaceAll('ô', 'o')}.svg",
+                                              iconSize: 88,
+                                              fontSize: 16,
+                                            ),
+                                          ),
+                                        )
+                                        .toList(),
                               ),
                             ],
                           ),
@@ -574,32 +643,20 @@ class _SignoPageState extends State<SignoPage> {
                               ),
                               const SizedBox(height: 18),
                               Row(
-                                children: [
-                                  Expanded(
-                                    child: _SignoCompatWidget(
-                                      nome: "Touro",
-                                      icone: "assets/icons/touro.svg",
-                                      iconSize: 88,
-                                      fontSize: 16,
-                                    ),
-                                  ),
-                                  Expanded(
-                                    child: _SignoCompatWidget(
-                                      nome: "Virgem",
-                                      icone: "assets/icons/virgem.svg",
-                                      iconSize: 88,
-                                      fontSize: 16,
-                                    ),
-                                  ),
-                                  Expanded(
-                                    child: _SignoCompatWidget(
-                                      nome: "Capricórnio",
-                                      icone: "assets/icons/capricornio.svg",
-                                      iconSize: 88,
-                                      fontSize: 16,
-                                    ),
-                                  ),
-                                ],
+                                children:
+                                    naoCompativeis
+                                        .map(
+                                          (nome) => Expanded(
+                                            child: _SignoCompatWidget(
+                                              nome: nome,
+                                              icone:
+                                                  "assets/icons/${nome.toLowerCase().replaceAll('ç', 'c').replaceAll('ã', 'a').replaceAll('á', 'a').replaceAll('é', 'e').replaceAll('í', 'i').replaceAll('ó', 'o').replaceAll('ú', 'u').replaceAll('ô', 'o').replaceAll('ê', 'e').replaceAll(' ', '').replaceAll('ô', 'o')}.svg",
+                                              iconSize: 88,
+                                              fontSize: 16,
+                                            ),
+                                          ),
+                                        )
+                                        .toList(),
                               ),
                             ],
                           ),
@@ -621,7 +678,7 @@ class _SignoPageState extends State<SignoPage> {
 class _MenuButton extends StatelessWidget {
   final String text;
   final bool selected;
-  final VoidCallback onTap;
+  final VoidCallback? onTap; // <-- Permitir nulo
   const _MenuButton({
     required this.text,
     required this.selected,
@@ -632,7 +689,7 @@ class _MenuButton extends StatelessWidget {
   Widget build(BuildContext context) {
     return Expanded(
       child: GestureDetector(
-        onTap: onTap,
+        onTap: onTap, // Pode ser null
         child: Container(
           color: Colors.white,
           padding: const EdgeInsets.symmetric(vertical: 12),
@@ -643,7 +700,11 @@ class _MenuButton extends StatelessWidget {
                 text,
                 textAlign: TextAlign.center,
                 style: TextStyle(
-                  color: selected ? Colors.blue : Colors.deepPurple,
+                  color:
+                      onTap == null
+                          ? Colors
+                              .grey // Desabilitado
+                          : (selected ? Colors.blue : Colors.deepPurple),
                   fontWeight: FontWeight.bold,
                   fontSize: 16,
                 ),
